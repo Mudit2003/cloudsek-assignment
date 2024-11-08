@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import rateLimit from 'express-rate-limit';
 import helmet from 'helmet';
-import postRoutes from './routes/PostRoutes';
-import commentRoutes from './routes/CommentRoutes';
+import postRoutes from './routes/post.route';
+import commentRoutes from './routes/comment.route';
 // import uploadRoutes from './routes/uploadRoutes';
 
 dotenv.config();

@@ -1,0 +1,4 @@
+Backend/dist
+Backend/node_modules
+Backend/.env
+Backend/server.*

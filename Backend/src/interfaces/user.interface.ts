@@ -1,5 +1,12 @@
-import { Request } from 'express';
-import { IUser } from '../models/User';
+import { Request } from "express";
+
+export interface IUser{
+    id? : string, 
+    username: string, 
+    posts?: [string],
+    comments?: [string] 
+}
+
 
 export interface IUserRequest extends Request {
     // will be passed from user interface 
