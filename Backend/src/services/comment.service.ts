@@ -1,7 +1,8 @@
 import { PrismaClient } from "@prisma/client";
 import { IComment, mapToCommentSchema } from "../interfaces/comment.interface";
-import filterUndefined from "../utils/filterUndefined";
+import filterUndefined from "../utils/request.util";
 import { Optional } from "@prisma/client/runtime/library";
+import { notifyNewComment, notifyNewReply } from "../utils/socket.util";
 
 const prisma = new PrismaClient();
 
@@ -23,7 +24,17 @@ export const createComment = async (data: IComment) => {
     data.parentCommentId = parentComment.parentCommentId;
   }
 
-  return await prisma.comment.create(mapToCommentSchema(data));
+  const comment = await prisma.comment.create(mapToCommentSchema(data));
+  const post = await prisma.post.findFirst({ where: { id: data.postId } });
+  if (parentComment && parentComment?.parentCommentId != null) {
+    notifyNewReply(parentComment.authorId, comment);
+  }
+  else if (comment && post) {
+    notifyNewComment(post.authorId, comment);
+  }
+
+
+  return comment;
 };
 
 export const getCommentsByPostId = async (postId: string) => {
@@ -41,8 +52,8 @@ export const getCommentsByPostId = async (postId: string) => {
 };
 
 export const getCommentById = async (id: string) => {
-  prisma.comment.findFirst()
-}
+  return await prisma.comment.findFirst({ where: { id } });
+};
 
 export const updateComment = async (
   commentId: string,

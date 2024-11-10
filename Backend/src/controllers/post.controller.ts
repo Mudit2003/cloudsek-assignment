@@ -9,25 +9,29 @@ import {
 } from "../services/post.service";
 import { IUserRequest } from "../interfaces/user.interface";
 import { postSchema } from "../validation/post.schema";
+import { notifyNewPost } from "../utils/socket.util";
 
 export const createPostController = async (
   req: IUserRequest,
   res: Response
 ) => {
+  console.log(req.body);
   const parsed = postSchema.safeParse(req.body);
 
   if (!parsed.success) {
-    return res.status(400).json({ error: parsed.error.errors });
+    res.status(400).json({ error: parsed.error.errors });
+    return;
   }
-
+  console.log(req.user?.username);
   try {
     const post = await createPost({
       title: req.body.title,
       content: req.body.content,
-      authorId: req.user?.username,
+      authorId: req.user?.username ?? req.body.username,
       mentions: req.body.mentions,
     });
     res.status(201).json(post);
+    notifyNewPost();
   } catch (error) {
     res.status(500).json({
       error: error instanceof Error ? error.message : "Unknown error",
@@ -37,14 +41,18 @@ export const createPostController = async (
 
 export const getAllPostsController = async (req: Request, res: Response) => {
   try {
-    const post = await getAllPosts();
+    const posts = await getAllPosts(req.body.page || 1, req.body.limit || 20);
 
-    if (!post) {
-      res.status(404).json({ error: "No posts available" });
+    if (!posts) {
+      res.status(404).json({ error: "No more posts are available" });
       return;
     }
-    res.status(200).json(post);
-  } catch (error) {}
+    res.status(200).json(posts);
+  } catch (error) {
+    res.status(500).json({
+      error: error instanceof Error ? error.message : "Unknown error",
+    });
+  }
 };
 
 export const getPostByIdController = async (req: Request, res: Response) => {
@@ -64,16 +72,13 @@ export const getPostByIdController = async (req: Request, res: Response) => {
   }
 };
 
-export const updatePostController = async (req: Request, res: Response) => {
-  const parsed = postSchema.safeParse(req.body);
-
-  if (!parsed.success) {
-    res.status(400).json({ error: parsed.error.errors });
-    return;
-  }
-
+export const updatePostController = async (
+  req: IUserRequest,
+  res: Response
+) => {
   try {
-    const updatedPost = await updatePost(req.params.id, req.body);
+    const { page, ...data } = req.body;
+    const updatedPost = await updatePost(req.params.id, data, page);
 
     if (!updatedPost) {
       res.status(404).json({ error: "Post not found" });
@@ -90,14 +95,14 @@ export const updatePostController = async (req: Request, res: Response) => {
 
 export const deletePostController = async (req: Request, res: Response) => {
   try {
-    const deleted = await deletePost(req.params.id);
+    const deleted = await deletePost(req.params.id, req.body.page);
 
     if (!deleted) {
       res.status(404).json({ error: "Post not found" });
       return;
     }
 
-    res.status(204).send();
+    res.status(204).json("Deletion Successful");
   } catch (error) {
     res.status(500).json({
       error: error instanceof Error ? error.message : "Unknown error",

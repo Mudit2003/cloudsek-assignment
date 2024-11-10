@@ -3,10 +3,13 @@ import { z } from "zod";
 
 const commentSchema = z.object({
   postId: z.string().uuid(),
-  content: z.string().min(1, "Content cannot be empty"), // Ensures content is not empty
+  content: z
+    .string()
+    .min(1, "Content cannot be empty")
+    .max(500, "Comment is too large"), // Ensures content is not empty
   authorId: z.string().min(3, "Author username is too short"), // Validates the username length
   parentCommentId: z.string().uuid().optional(), // Ensures parentCommentId is a valid UUID if provided
   mentions: z.array(z.string()).optional(), // An array of valid strings (usernames or other mentions)
 });
 
-export default commentSchema
+export default commentSchema;

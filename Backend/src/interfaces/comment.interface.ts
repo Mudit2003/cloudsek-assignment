@@ -1,7 +1,8 @@
 export interface IComment {
   id?: string;
   postId: string;
-  parentCommentId?: string;
+  parentCommentId?: string | null;
+  parentComment?: IComment;
   commentId?: string;
   content: string;
   authorId: string;
@@ -11,7 +12,7 @@ export interface IComment {
   updatedAt?: Date;
 }
 
-export const mapToCommentSchema = (data: IComment) => ({
+export const mapToCommentSchema = ({ parentComment, ...data }: IComment) => ({
   data: {
     ...data,
     replies: data.replies
