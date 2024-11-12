@@ -33,7 +33,7 @@ This project is a robust backend API designed to manage posts, comments, and use
 - **Redis Queue**: Used for Pub/Sub mechanism for notification handling.
 
 # System Design
-[Architecture](https://github.com/Mudit2003/cloudsek-assignment/blob/main/image.jpg?raw=true)
+![Architecture](https://github.com/Mudit2003/cloudsek-assignment/blob/main/image.jpg?raw=true)
 
 ## Features and Functionality
 
