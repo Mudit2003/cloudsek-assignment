@@ -32,6 +32,9 @@ This project is a robust backend API designed to manage posts, comments, and use
 - **Winston**: A versatile logging library used for logging application events and errors.
 - **Redis Queue**: Used for Pub/Sub mechanism for notification handling.
 
+# System Design
+[Architecture](https://github.com/Mudit2003/cloudsek-assignment/blob/main/image.jpg?raw=true)
+
 ## Features and Functionality
 
 ### 1. **Caching with Redis**
