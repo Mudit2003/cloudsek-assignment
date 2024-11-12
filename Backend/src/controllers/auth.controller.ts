@@ -22,6 +22,7 @@ import { updateUser, verifyUserEmail } from "../services/user.service";
 import { decodeAccessToken, generateAccessToken } from "../utils/token.util";
 import { errorCast, errorCastWithParams } from "../utils/error.util";
 import logger from "../config/logger.config";
+import { parse } from "path";
 
 export const registerController = async (
   req: Request,
@@ -44,22 +45,23 @@ export const loginController = async (
 ) => {
   try {
     const { email, password } = req.body;
-    logger.info("Body recieved");
     const validateEmail = emailValidator.safeParse(email).success;
     if (!validateEmail || !password) {
       throw InvalidCredentialsError;
     }
-    logger.info("Body recieved 2");
     
     const response = await login(email, password);
-    logger.info("Body recieved 7");
     var { refreshToken, accessToken, user } = response;
     user.refreshToken = undefined;
-    res.cookie("refreshToken", response.refreshToken);
+    res.cookie("refreshToken", response.refreshToken , {
+      maxAge: parseInt(process.env.JWT_REFRESH_EXPIRES_IN as string || "604800") 
+      ,httpOnly:true, 
+      sameSite:"none",
+      path:"/",
+      secure:true,
+    });
     
-    logger.info("Body recieved 8");
     res.status(200).json({ user, accessToken , });
-    logger.info("Body recieved 9");
   } catch (error) {
     errorCast(next, error, InvalidCredentialsError);
   }

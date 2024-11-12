@@ -43,7 +43,6 @@ export const authenticateRequest = async (
   try {
     decodedToken = decodeAccessToken(token);
   } catch (error) {
-    logger.error((error as Error).name)
     if (error instanceof Error && error.name === "TokenExpiredError") {
       try {
         const claims = decodeRefreshToken(refreshToken as string);

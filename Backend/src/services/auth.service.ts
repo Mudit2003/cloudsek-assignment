@@ -24,7 +24,6 @@ export const login = async (
   email: string,
   password: string
 ): Promise<{ accessToken: string; refreshToken: string, user: IUser }> => {
-  console.log("here")
   const user = await getUserByEmail(email);
   if (!user || !(await bcrypt.compare(password, user.password))) {
     throw InvalidCredentialsError;
