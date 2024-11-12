@@ -1,4 +1,5 @@
 Backend/dist
 Backend/node_modules
 Backend/.env
-Backend/server.*
+Backend/server.cert
+Backend/server.key
