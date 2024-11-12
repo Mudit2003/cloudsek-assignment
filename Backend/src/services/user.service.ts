@@ -2,6 +2,7 @@ import prisma from "../config/prisma.config";
 import bcrypt from "bcryptjs";
 import { UserNotFoundError } from "../errors/auth.error";
 import IUser from "../interfaces/user.interface";
+import logger from "../config/logger.config";
 
 export const checkIfUserExists = async (username: string) => {
   const user = await prisma.user.findUnique({
@@ -18,7 +19,7 @@ export const createUser = async (
   password: string,
   email: string
 ): Promise<any> => {
-  const hashedPassword = await bcrypt.hash(password, 16);
+  const hashedPassword = await bcrypt.hash(password, 10);
 
   const user = await prisma.user.create({
     data: {
@@ -45,14 +46,12 @@ export const getUserById = async (userId: string) => {
 };
 
 export const getUserByEmail = async (email: string) => {
-  const user = await prisma.user.findUniqueOrThrow({
+  const user = await prisma.user.findUnique({
     where: { email },
-    include: {
-      posts: true,
-    },
   });
+  logger.info("Here")
   if (!user) {
-    throw new Error("User not found");
+    throw UserNotFoundError;
   }
   return user;
 };
@@ -86,7 +85,7 @@ export const updateUser = async (
   data: Partial<{ username: string; email: string; password: string }>
 ): Promise<any> => {
   if (data.password) {
-    data.password = await bcrypt.hash(data.password, 16);
+    data.password = await bcrypt.hash(data.password, 10);
   }
 
   const { refreshToken, ...user } = await prisma.user.update({

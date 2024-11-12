@@ -14,7 +14,7 @@ const errorHandler = (
   res: Response,
   next: NextFunction
 ) => {
-
+  logger.debug("Interrupted");
   if (
     err instanceof PrismaClientRustPanicError ||
     err instanceof PrismaClientInitializationError
@@ -30,7 +30,7 @@ const errorHandler = (
           break;
         } catch (error) {
           if (retryCount >= MAX_RETRIES) {
-          logger.error("Max Retries Limit Reached")
+            logger.error("Max Retries Limit Reached");
           } else {
             await new Promise((resolve) => setTimeout(resolve, 3000)); // Wait 3 seconds before retrying
           }
@@ -47,6 +47,8 @@ const errorHandler = (
       status: err.status || 500,
     },
   });
+ return;
+  
 };
 
 export default errorHandler;

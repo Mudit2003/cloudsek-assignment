@@ -10,6 +10,7 @@ import redis from "../config/redis.config";
 import transporter from "../config/mail.config";
 import { createUser, getUserByEmail } from "./user.service";
 import { InvalidCredentialsError, UserNotFoundError } from "../errors/auth.error";
+import logger from "../config/logger.config";
 
 export const register = async (
   username: string,
@@ -23,6 +24,7 @@ export const login = async (
   email: string,
   password: string
 ): Promise<{ accessToken: string; refreshToken: string, user: IUser }> => {
+  console.log("here")
   const user = await getUserByEmail(email);
   if (!user || !(await bcrypt.compare(password, user.password))) {
     throw InvalidCredentialsError;

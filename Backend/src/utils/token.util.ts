@@ -33,7 +33,7 @@ export const generateRefreshToken = async (user: IUser): Promise<string> => {
     payload,
     process.env.JWT_REFRESH_SECRET as string
   );
-  const hashedRefreshToken = await bcrypt.hash(refreshToken, 16);
+  const hashedRefreshToken = await bcrypt.hash(refreshToken, 10);
   const logUser = await prisma.user.update({
     where: { id: user.id },
     data: {

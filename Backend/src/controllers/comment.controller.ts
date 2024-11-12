@@ -35,7 +35,6 @@ export const createCommentController = async (
       parentComment: req.body.parentComment,
     });
     const post = await getPostById(req.body.postId);
-    notifyNewComment(post.authorId, comment);
     res.status(201).json(comment);
   } catch (error) {
     errorCastWithParams(next, error, CommentCreationError);

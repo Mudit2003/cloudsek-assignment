@@ -10,6 +10,8 @@ import {
 import { NotificationCreationError } from "../errors/notification.error";
 import { UserNotFoundError } from "../errors/auth.error";
 import { PostNotFoundError } from "../errors/post.error";
+import { error } from "console";
+import logger from "../config/logger.config";
 
 const prisma = new PrismaClient();
 
@@ -38,10 +40,10 @@ export const createComment = async (data: IComment) => {
     if (!comment) throw CommentCreationError;
 
     if (parentComment && parentComment.id) {
-      notifyNewReply(parentComment.authorId, comment);
+      await notifyNewReply(parentComment.authorId, comment)
     } else {
       if (comment && post) {
-        notifyNewComment(post.authorId, comment);
+        await notifyNewComment(post.authorId, comment).catch((error)=>(logger.error(error))).then();
       }
     }
     return comment;
