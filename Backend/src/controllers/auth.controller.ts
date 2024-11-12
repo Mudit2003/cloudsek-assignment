@@ -34,7 +34,7 @@ export const registerController = async (
   } catch (error) {
     errorCastWithParams(next, error, RegistrationError);
   }
-};  
+};
 
 export const loginController = async (
   req: Request,
@@ -51,12 +51,14 @@ export const loginController = async (
     const response = await login(email, password);
     var { refreshToken, accessToken, user } = response;
     user.refreshToken = undefined;
-
-    res.cookie("refreshToken", response.refreshToken , {
-      maxAge: parseInt(process.env.JWT_REFRESH_EXPIRES_IN || '604800'),
-
+    res.cookie("refreshToken", response.refreshToken, {
+      maxAge: parseInt(process.env.JWT_REFRESH_EXPIRES_IN || "604800"),
+      sameSite: "none",
+      httpOnly: true,
+      secure: true,
     });
-    res.status(200).json({user , accessToken});
+
+    res.status(200).json({ user, accessToken });
   } catch (error) {
     errorCast(next, error, InvalidCredentialsError);
   }
@@ -122,7 +124,7 @@ export const changePasswordController = async (
   try {
     const { email, password } = req.body;
     const user = req.user;
-    updateUser(user?.id!, {password});
+    updateUser(user?.id!, { password });
     res.status(200).json({ message: "Password changed successfully" });
   } catch (error) {
     errorCast(next, error, PasswordChangeError);

@@ -992,3 +992,1049 @@
 2024-11-12 20:29:00 [info]: [General] Connected to Redis.
 2024-11-12 20:29:00 [info]: [Subscriber] Redis connection is ready.
 2024-11-12 20:29:00 [info]: [General] Redis connection is ready.
+2024-11-12 20:31:16 [info]: Server running on port 3000
+2024-11-12 20:31:16 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:31:16 [info]: [Subscriber] Connected to Redis.
+2024-11-12 20:31:16 [info]: [General] Connected to Redis.
+2024-11-12 20:31:16 [info]: [Publisher] Connected to Redis.
+2024-11-12 20:31:16 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 20:31:16 [info]: [General] Redis connection is ready.
+2024-11-12 20:31:16 [info]: [Publisher] Redis connection is ready.
+2024-11-12 20:31:19 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:31:25 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:31:37 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:32:01 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:32:31 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:33:01 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:33:31 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:34:01 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:34:31 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:35:01 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:35:31 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:36:01 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:36:16 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 20:36:16 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:36:16 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 20:36:16 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:36:16 [warn]: [General] Redis connection has closed.
+2024-11-12 20:36:16 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:36:18 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 20:36:18 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 20:36:18 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 20:36:18 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 20:36:18 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 20:36:18 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 20:36:18 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 20:36:18 [warn]: [General] Redis connection has closed.
+2024-11-12 20:36:18 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 20:36:23 [info]: [Publisher] Connected to Redis.
+2024-11-12 20:36:23 [info]: [Subscriber] Connected to Redis.
+2024-11-12 20:36:23 [info]: [General] Connected to Redis.
+2024-11-12 20:36:23 [info]: [Publisher] Redis connection is ready.
+2024-11-12 20:36:23 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 20:36:23 [info]: [General] Redis connection is ready.
+2024-11-12 20:36:31 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:37:01 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:37:31 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:38:01 [error]: Error connecting to MongoDB (Attempt 17): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:38:31 [error]: Error connecting to MongoDB (Attempt 18): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:39:02 [error]: Error connecting to MongoDB (Attempt 19): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:39:32 [error]: Error connecting to MongoDB (Attempt 20): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 20:41:23 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 20:41:23 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:41:23 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 20:41:23 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:41:23 [warn]: [General] Redis connection has closed.
+2024-11-12 20:41:23 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:41:25 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 20:41:25 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 20:41:25 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 20:41:25 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 20:41:25 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 20:41:25 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 20:41:25 [info]: [General] Connected to Redis.
+2024-11-12 20:41:25 [info]: [General] Redis connection is ready.
+2024-11-12 20:41:29 [info]: [Subscriber] Connected to Redis.
+2024-11-12 20:41:29 [info]: [Publisher] Connected to Redis.
+2024-11-12 20:41:29 [info]: [Publisher] Redis connection is ready.
+2024-11-12 20:41:29 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 20:46:25 [warn]: [General] Redis connection has closed.
+2024-11-12 20:46:25 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:46:28 [info]: [General] Connected to Redis.
+2024-11-12 20:46:28 [info]: [General] Redis connection is ready.
+2024-11-12 20:46:29 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 20:46:29 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:46:29 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 20:46:29 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 20:46:32 [info]: [Publisher] Connected to Redis.
+2024-11-12 20:46:32 [info]: [Subscriber] Connected to Redis.
+2024-11-12 20:46:32 [info]: [Publisher] Redis connection is ready.
+2024-11-12 20:46:32 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:03:19 [error]: [Subscriber] Redis error: read ECONNRESET
+2024-11-12 21:03:19 [error]: [Publisher] Redis error: read ECONNRESET
+2024-11-12 21:03:19 [error]: [General] Redis error: read ECONNRESET
+2024-11-12 21:03:19 [warn]: [General] Redis connection has closed.
+2024-11-12 21:03:19 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:03:19 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:03:19 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:03:19 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:03:19 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:03:31 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-12 21:03:31 [warn]: [General] Redis connection has closed.
+2024-11-12 21:03:31 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 21:03:31 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-12 21:03:31 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:03:31 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 21:03:31 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-12 21:03:31 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:03:31 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 21:03:41 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:03:44 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:03:44 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:03:45 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:03:47 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-12 21:03:47 [warn]: [General] Redis connection has closed.
+2024-11-12 21:03:47 [info]: [General] Attempting to reconnect to Redis after 8000ms...
+2024-11-12 21:03:55 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 21:03:55 [warn]: [General] Redis connection has closed.
+2024-11-12 21:03:55 [info]: [General] Attempting to reconnect to Redis after 16000ms...
+2024-11-12 21:04:11 [info]: [General] Connected to Redis.
+2024-11-12 21:04:11 [info]: [General] Redis connection is ready.
+2024-11-12 21:09:36 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:09:36 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:09:39 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:09:39 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:10:02 [warn]: [General] Redis connection has closed.
+2024-11-12 21:10:02 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:10:05 [info]: [General] Connected to Redis.
+2024-11-12 21:10:05 [info]: [General] Redis connection is ready.
+2024-11-12 21:10:20 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:10:20 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:10:22 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:10:22 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:14:39 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:14:39 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:14:42 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:14:42 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:15:05 [warn]: [General] Redis connection has closed.
+2024-11-12 21:15:05 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:15:07 [info]: [General] Connected to Redis.
+2024-11-12 21:15:08 [info]: [General] Redis connection is ready.
+2024-11-12 21:15:23 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:15:23 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:15:25 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:15:25 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:19:45 [info]: Server running on port 3000
+2024-11-12 21:19:45 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:19:45 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:19:45 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:19:45 [info]: [General] Connected to Redis.
+2024-11-12 21:19:46 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:19:46 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:19:46 [info]: [General] Redis connection is ready.
+2024-11-12 21:19:48 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:19:54 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:20:06 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:20:30 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:21:48 [error]: Error connecting to MongoDB (Attempt 6): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:23:09 [error]: Error connecting to MongoDB (Attempt 7): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:23:44 [info]: MongoDB connected successfully
+2024-11-12 21:25:12 [warn]: [General] Redis connection has closed.
+2024-11-12 21:25:12 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:25:15 [info]: [General] Connected to Redis.
+2024-11-12 21:25:15 [info]: [General] Redis connection is ready.
+2024-11-12 21:25:37 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:25:37 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:25:39 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:25:39 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:29:01 [error]: [General] Redis error: read ECONNRESET
+2024-11-12 21:29:01 [error]: [Subscriber] Redis error: read ECONNRESET
+2024-11-12 21:29:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:29:01 [error]: [Publisher] Redis error: read ECONNRESET
+2024-11-12 21:29:01 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:29:01 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:29:01 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:29:01 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:29:01 [warn]: [General] Redis connection has closed.
+2024-11-12 21:29:01 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:29:08 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:29:08 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:29:08 [info]: [General] Connected to Redis.
+2024-11-12 21:29:08 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:29:08 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:29:08 [info]: [General] Redis connection is ready.
+2024-11-12 21:29:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:29:13 [error]: Error connecting to MongoDB (Attempt 1): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-12 21:29:13 [error]: MongoDB connection error: Server selection timed out after 5000 ms
+2024-11-12 21:29:18 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:29:19 [error]: Error connecting to MongoDB (Attempt 2): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-12 21:29:19 [error]: MongoDB connection error: Server selection timed out after 5000 ms
+2024-11-12 21:29:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:29:24 [error]: Error connecting to MongoDB (Attempt 3): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-12 21:29:24 [error]: MongoDB connection error: Server selection timed out after 5000 ms
+2024-11-12 21:29:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:29:29 [error]: Error connecting to MongoDB (Attempt 4): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-12 21:29:29 [error]: MongoDB connection error: Server selection timed out after 5000 ms
+2024-11-12 21:29:30 [info]: MongoDB connected successfully
+2024-11-12 21:29:43 [info]: MongoDB connected successfully
+2024-11-12 21:29:49 [info]: MongoDB connected successfully
+2024-11-12 21:29:54 [info]: MongoDB connected successfully
+2024-11-12 21:29:59 [info]: MongoDB connected successfully
+2024-11-12 21:32:19 [error]: [Publisher] Redis error: read ECONNRESET
+2024-11-12 21:32:19 [error]: [Subscriber] Redis error: read ECONNRESET
+2024-11-12 21:32:19 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:32:19 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:32:19 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:32:19 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:32:19 [error]: [General] Redis error: read ECONNRESET
+2024-11-12 21:32:19 [warn]: [General] Redis connection has closed.
+2024-11-12 21:32:19 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:20 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:20 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 17): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 18): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 19): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 20): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 21): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 22): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 23): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 24): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 25): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 26): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 21:32:21 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:32:21 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 21:32:21 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 27): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:32:21 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 28): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 29): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:21 [error]: Error connecting to MongoDB (Attempt 30): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:21 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 31): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 32): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 33): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 34): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 35): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 36): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 37): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [info]: [General] Connected to Redis.
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 38): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 39): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 40): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 41): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [info]: [General] Redis connection is ready.
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 42): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 43): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 44): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 45): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 46): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 47): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 48): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 49): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 50): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 51): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 52): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:22 [error]: Error connecting to MongoDB (Attempt 53): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:22 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 54): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 55): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 56): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 57): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 58): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 59): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 60): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 61): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 62): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 63): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 64): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 65): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 66): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 67): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 68): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 69): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 70): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 71): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 72): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 73): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 74): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 75): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:23 [error]: Error connecting to MongoDB (Attempt 76): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:23 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 77): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 78): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 79): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 80): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 81): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 82): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 83): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 84): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 85): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 86): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 87): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 88): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 89): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 90): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 91): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 92): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 93): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 94): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 95): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 96): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 97): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 98): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:24 [error]: Error connecting to MongoDB (Attempt 99): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:24 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 100): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 101): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 102): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 103): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 104): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 105): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 106): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 107): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 108): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 109): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 110): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 111): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 112): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 113): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 114): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 115): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 116): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 117): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 118): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 119): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 120): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 121): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:25 [error]: Error connecting to MongoDB (Attempt 122): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:25 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 123): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 124): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 125): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:32:26 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 126): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 127): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 128): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 129): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 130): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 131): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 132): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 133): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 134): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 135): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 136): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 137): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 138): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 139): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 140): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 141): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 142): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 143): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 144): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 145): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:26 [error]: Error connecting to MongoDB (Attempt 146): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:26 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 147): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 148): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 149): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 150): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 151): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 152): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 153): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 154): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 155): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 156): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 157): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 158): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 159): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 160): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 161): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 162): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 163): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 164): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 165): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 166): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 167): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 168): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:27 [error]: Error connecting to MongoDB (Attempt 169): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:27 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 170): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 171): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 172): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 173): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 174): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 175): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 176): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 177): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 178): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 179): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 180): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 181): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 182): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 183): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 184): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 185): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 186): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 187): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 188): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 189): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 190): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 191): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 192): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:28 [error]: Error connecting to MongoDB (Attempt 193): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:28 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 194): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 195): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 196): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 197): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 198): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 199): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 200): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 201): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 202): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 203): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 204): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 205): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 206): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 207): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 208): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 209): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 210): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 211): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 212): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 213): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 214): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 215): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:29 [error]: Error connecting to MongoDB (Attempt 216): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:29 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 217): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 218): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 219): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 220): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 221): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 222): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 223): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 224): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 225): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 226): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 227): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 228): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 229): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 230): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 231): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 232): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 233): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 234): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 235): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 236): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 237): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 238): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:30 [error]: Error connecting to MongoDB (Attempt 239): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:30 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 240): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 241): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 242): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 243): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 244): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 245): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 246): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 247): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 248): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 249): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 250): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 251): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 252): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 253): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 254): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection lost. Reconnecting...
+2024-11-12 21:32:31 [error]: Error connecting to MongoDB (Attempt 255): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:31 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-12 21:32:33 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:50 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:32:51 [info]: MongoDB connected successfully
+2024-11-12 21:37:22 [warn]: [General] Redis connection has closed.
+2024-11-12 21:37:22 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:37:24 [info]: [General] Connected to Redis.
+2024-11-12 21:37:25 [info]: [General] Redis connection is ready.
+2024-11-12 21:37:26 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:37:26 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:37:26 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:37:26 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:37:28 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:37:28 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:37:28 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:37:28 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:42:25 [warn]: [General] Redis connection has closed.
+2024-11-12 21:42:25 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:42:27 [info]: [General] Connected to Redis.
+2024-11-12 21:42:27 [info]: [General] Redis connection is ready.
+2024-11-12 21:42:28 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:42:28 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:42:28 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:42:28 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:42:31 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:42:31 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:42:31 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:42:31 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:47:27 [warn]: [General] Redis connection has closed.
+2024-11-12 21:47:27 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:47:30 [info]: [General] Connected to Redis.
+2024-11-12 21:47:30 [info]: [General] Redis connection is ready.
+2024-11-12 21:47:31 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:47:31 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:47:31 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:47:31 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:47:33 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:47:33 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:47:33 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:47:34 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:52:30 [warn]: [General] Redis connection has closed.
+2024-11-12 21:52:30 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:52:32 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-12 21:52:32 [warn]: [General] Redis connection has closed.
+2024-11-12 21:52:32 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-12 21:52:33 [warn]: [Subscriber] Redis connection has closed.
+2024-11-12 21:52:33 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:52:34 [warn]: [Publisher] Redis connection has closed.
+2024-11-12 21:52:34 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-12 21:52:36 [info]: [Subscriber] Connected to Redis.
+2024-11-12 21:52:36 [info]: [Subscriber] Redis connection is ready.
+2024-11-12 21:52:36 [info]: [Publisher] Connected to Redis.
+2024-11-12 21:52:36 [info]: [Publisher] Redis connection is ready.
+2024-11-12 21:52:36 [info]: [General] Connected to Redis.
+2024-11-12 21:52:37 [info]: [General] Redis connection is ready.
