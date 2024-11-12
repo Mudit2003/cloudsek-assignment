@@ -1,4 +1,4 @@
-# CloudSek Backend API Documentation
+#API Documentation
 
 ## Overview
 
@@ -60,7 +60,7 @@ Authorization: Bearer your_token_here
 
 ### Login
 - **Endpoint:** `POST /auth/login`
-- **Description:** Log in to receive an access token.
+- **Description:** Log in to receive an access token, refresh token will directly be assigned to your cookies. 
 - **Request:**
   ```json
   {
@@ -81,7 +81,7 @@ Authorization: Bearer your_token_here
 
 ### Verify Email
 - **Endpoint:** `POST /auth/verifyEmail`
-- **Description:** Sends a verification email to the user.
+- **Description:** Sends a verification email to the user. The verification email contains a 4 digit OTP. 
 - **Request:**
   ```json
   {
@@ -95,13 +95,49 @@ Authorization: Bearer your_token_here
   }
   ```
 
+
+### Validate OTP
+- **Endpoint:** `POST /auth/validateOTP`
+- **Description:** Validates the four digit OTP against the stored otp. The otp is stored in redis cache. 
+- **Request:**
+  ```json
+  {
+    "email": "example@example.com",
+    "otp": "4 digit Code"
+  }
+  ```
+- **Response:**
+  ```json
+  {
+    "message": "OTP is valid"
+  }
+  ```
+
+
+### Update Password
+- **Endpoint:** `POST /auth/updatePassword`
+- **Description:** The password for the user is updated. 
+- **Authorization:** Required bearer token in authentication header. The bearer token can be retrived from response header of OTP validation or can be present in the system post login. 
+- **Request:**
+  ```json
+  {
+    "password": "your_preferred_password"
+  }
+  ```
+- **Response:**
+  ```json
+  {
+    "message": "Password updated successfully"
+  }
+  ```
+
 ---
 
 ## Post API
 
 ### Create a Post
 - **Endpoint:** `POST /posts`
-- **Description:** Creates a new post.
+- **Description:** Creates a new post. The created post is saved to postgres database as well as redis cache. On creation of a new post the first page redis cache is invalidated and data is provided from database. 
 - **Request:**
   ```json
   {
@@ -124,7 +160,14 @@ Authorization: Bearer your_token_here
 
 ### Get All Posts
 - **Endpoint:** `GET /posts`
-- **Description:** Retrieves a list of all posts.
+- **Description:** Retrieves a list of all posts.Uses pagination to retrive only the posts for that particular page. Posts are retrived from the redis cache if available else are fetched from PostgreSQL DB. If no page and limit values are provided by default first page will be fetched with a limit of 20. 
+- **Request:**
+  ```json
+  {
+    "page": 1,
+    "limit": 6,
+  }
+  ```
 - **Response:**
   ```json
   [
@@ -168,12 +211,13 @@ Response Example:
 
 ### Update a Post
 - **Endpoint:** `PUT /posts/{post_id}`
-- **Description:** Updates a post by ID.
+- **Description:** Updates a post by ID. The page number is also required because the page cache is invalidated on updation. 
 - **Request:**
   ```json
   {
     "title": "Updated Post Title",
-    "content": "Updated content"
+    "content": "Updated content",
+    "page":6
   }
   ```
 - **Response:**
@@ -268,12 +312,92 @@ Response Example:
 
 ## Error Handling
 
-### Common Error Responses
-- **400 Bad Request**: Invalid input or missing fields.
-- **401 Unauthorized**: Invalid or missing authentication token.
-- **403 Forbidden**: Token errors
-- **404 Not Found**: Requested resource not found.
-- **500 Internal Server Error**: Unexpected server error.
+The API includes structured error responses for various scenarios, with detailed error messages and appropriate HTTP status codes. Below are common errors categorized by type.
+
+## Common Error Responses
+
+### Authentication & Authorization Errors
+
+- **401 Unauthorized**:
+  - **InvalidCredentialsError**: Incorrect username or password.
+  - **UserNotAuthenticatedError**: User is not authenticated.
+  - **AccessTokenMissingError**: Access token is missing.
+
+- **403 Forbidden**:
+  - **InvalidAccessTokenError**: Invalid or expired access token.
+  - **InvalidRefreshTokenError**: Invalid or expired refresh token.
+  - **RefreshTokenMissingError**: Refresh token is missing.
+  - **PermissionDeniedError**: User lacks required permissions.
+
+- **429 Too Many Requests**:
+  - **RateLimitExceededError**: Rate limit for requests has been exceeded.
+
+### User Errors
+
+- **404 Not Found**:
+  - **UserNotFoundError**: The specified user could not be found.
+
+- **400 Bad Request**:
+  - **EmailVerificationError**: Email verification failed.
+  - **OTPValidationError**: Invalid OTP.
+  - **PasswordChangeError**: Error during password change.
+
+### Post Errors
+
+- **404 Not Found**:
+  - **PostNotFoundError**: The specified post could not be found.
+
+- **400 Bad Request**:
+  - **PostCreationError**: Error creating a post.
+  - **PostUpdateError**: Error updating the post.
+
+- **500 Internal Server Error**:
+  - **PostDeletionError**: Error deleting the post.
+  - **DatabaseConnectionError**: Failed to connect to the database.
+
+### Comment Errors
+
+- **404 Not Found**:
+  - **CommentNotFoundError**: The specified comment could not be found.
+
+- **400 Bad Request**:
+  - **CommentCreationError**: Error creating a comment.
+  - **CommentUpdateError**: Error updating a comment.
+
+- **500 Internal Server Error**:
+  - **CommentDeletionError**: Error deleting a comment.
+
+### Notification Errors
+
+- **500 Internal Server Error**:
+  - **NotificationCreationError**: Error creating notification.
+  - **NotificationRetrievalError**: Error retrieving notifications.
+  - **NotificationDeletionError**: Error deleting notifications.
+
+### General Errors
+
+- **500 Internal Server Error**:
+  - **DatabaseConnectionError**: An error occurred while connecting to the database.
+
+### Example Error Response Structure
+
+```json
+{
+  "error": {
+    "name": "ErrorType",
+    "status": 400,
+    "message": "Detailed error message."
+  }
+}
+```
+
+## Notifications
+Notifications are created and stored in the database if unread. If the user is connected then the notification is published to the redis queue and subscribed by the socket.io. On retriving the notification the notification is emitted via socket io channels. 
+
+### Channels 
+- **newComment**: Notification of a new comment to the author of the post. 
+- **newReply**: Notification of reply to author of a comment. 
+- **newPost**: Notification of new posts for users to retrive the posts further on requirement. 
 
 ---
 
