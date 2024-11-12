@@ -26,10 +26,7 @@ export const createCommentController = async (
 ) => {
   try {
     await checkIfUserExists(req.body.authorId);
-    console.log("User check passed");
     const sanitizedContent = sanitizeContent(req.body.content);
-    console.log(sanitizedContent);
-    console.log("Calling create comment");
     const comment = await createComment({
       postId: req.body.postId,
       content: sanitizedContent,
@@ -37,9 +34,7 @@ export const createCommentController = async (
       parentCommentId: req.body.parentCommentId,
       parentComment: req.body.parentComment,
     });
-    console.log("comment", comment);
     const post = await getPostById(req.body.postId);
-    console.log("post", post);
     notifyNewComment(post.authorId, comment);
     res.status(201).json(comment);
   } catch (error) {
@@ -90,7 +85,6 @@ export const updateCommentController = async (
     
     res.status(200).json(updatedComment);
   } catch (error) {
-    console.error(error);
     errorCastWithParams(next, error, CommentUpdateError);
   }
 };

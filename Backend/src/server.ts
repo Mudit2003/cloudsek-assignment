@@ -9,6 +9,7 @@ import {
   markNotificationsAsRead,
 } from "./services/notification.service";
 import connectDB from "./config/mongo.config";
+import logger from "./config/logger.config";
 
 const server = http.createServer(app);
 connectDB();
@@ -16,7 +17,7 @@ connectDB();
 export const io = new Server(server);
 
 io.on("connection", (socket) => {
-  console.log("A user connected");
+  logger.info("A user connected");
 
   // Subscribe to Redis notifications
   redisSubscriber.subscribe(
@@ -25,9 +26,9 @@ io.on("connection", (socket) => {
     "newPost",
     (err, count) => {
       if (err) {
-        console.error("Failed to subscribe: %s", err.message);
+        logger.error("Failed to subscribe: %s", err.message);
       } else {
-        console.log(
+        logger.info(
           `Subscribed successfully! This client is currently subscribed to ${count} channels.`
         );
       }
@@ -36,12 +37,12 @@ io.on("connection", (socket) => {
 
   // Listen for messages from Redis and emit to clients
   redisSubscriber.on("message", (channel, message) => {
-    console.log("Recieved");
+    logger.info("Recieved");
     socket.emit(channel, JSON.parse(message));
   });
 
   socket.on("disconnect", () => {
-    console.log("A user disconnected");
+    logger.info("A user disconnected");
   });
 
   // src/server.ts (within io.on('connection'))
@@ -52,4 +53,4 @@ io.on("connection", (socket) => {
 });
 
 const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+server.listen(PORT, () => logger.info(`Server running on port ${PORT}`));

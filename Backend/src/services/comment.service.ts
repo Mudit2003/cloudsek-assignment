@@ -16,24 +16,19 @@ const prisma = new PrismaClient();
 // this create comment can be create reply too
 export const createComment = async (data: IComment) => {
   let parentComment;
-  console.log(data);
   if (data.parentCommentId)
     parentComment =
       data.parentComment ??
       (await prisma.comment.findFirst({
         where: { id: data.parentCommentId },
       }));
-  console.log("Reached here", parentComment);
   // nested comment structure not allowed hence handling the same
   if (parentComment && parentComment!.parentCommentId) {
-    console.log(parentComment.parentCommentId);
     // the mentioned section shall be taken care of and preprocessed
     data.content = `@${parentComment.authorId} ` + data.content;
     data.mentions = [...(data.mentions ?? []), parentComment.authorId];
-    console.log(data.mentions);
     data.parentCommentId = parentComment.parentCommentId;
   }
-  console.log("Database next");
   try {
     const post = await prisma.post.findFirst({ where: { id: data.postId } });
     if (!post) throw PostNotFoundError;
@@ -43,10 +38,8 @@ export const createComment = async (data: IComment) => {
     if (!comment) throw CommentCreationError;
 
     if (parentComment && parentComment.id) {
-      console.log("reply", comment);
       notifyNewReply(parentComment.authorId, comment);
     } else {
-      console.log(comment);
       if (comment && post) {
         notifyNewComment(post.authorId, comment);
       }
@@ -83,7 +76,6 @@ export const updateComment = async (
   data: Partial<IComment>
 ) => {
   const filteredData = filterUndefined(data);
-  console.log(data);
   return await prisma.comment.update({
     where: { id: commentId },
     data: filteredData as any, // the issue of id being not null

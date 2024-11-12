@@ -1,4 +1,5 @@
 import Redis, { RedisOptions } from "ioredis";
+import logger from "./logger.config";
 
 // Common retry strategy with exponential backoff
 const createRetryStrategy = (times: number) => {
@@ -10,29 +11,29 @@ const createRetryStrategy = (times: number) => {
 // Error handling function to add listeners to a Redis instance
 const setupErrorHandling = (redisInstance: Redis, name: string) => {
   redisInstance.on("error", (err) => {
-    console.error(`[${name}] Redis error:`, err);
+    logger.error(`[${name}] Redis error:`, err);
   });
 
   redisInstance.on("reconnecting", (delay: number) => {
-    console.log(
+    logger.info(
       `[${name}] Attempting to reconnect to Redis after ${delay}ms...`
     );
   });
 
   redisInstance.on("connect", () => {
-    console.log(`[${name}] Connected to Redis.`);
+    logger.info(`[${name}] Connected to Redis.`);
   });
 
   redisInstance.on("ready", () => {
-    console.log(`[${name}] Redis connection is ready.`);
+    logger.info(`[${name}] Redis connection is ready.`);
   });
 
   redisInstance.on("end", () => {
-    console.warn(`[${name}] Redis connection has ended.`);
+    logger.warn(`[${name}] Redis connection has ended.`);
   });
 
   redisInstance.on("close", () => {
-    console.warn(`[${name}] Redis connection has closed.`);
+    logger.warn(`[${name}] Redis connection has closed.`);
   });
 };
 

@@ -23,7 +23,6 @@ export const createPost = async (data: IPost) => {
       mentions: data.mentions,
     },
   });
-  console.log(createdPost);
   if (!createdPost) throw PostCreationError;
   await notifyNewPost()
   await setCache(cachePostKey + createdPost.id, createdPost);
@@ -54,7 +53,6 @@ export const getAllPosts = async (page: number, limit: number) => {
   // Try to get cached data
   const cachedPosts = await getCache(cacheKey);
   if (cachedPosts) {
-    console.log("Serving posts from cache for page", page);
     return cachedPosts;
   }
 

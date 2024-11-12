@@ -30,6 +30,4 @@ app.use("/api/v1/auth", authRoutes);
 
 app.use(errorHandler);
 
-console.log('app')
-
 export default app;

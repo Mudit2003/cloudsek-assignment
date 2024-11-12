@@ -21,8 +21,6 @@ export const createPostController = async (
   res: Response,
   next: NextFunction
 ) => {
-  console.log(req.body);
-  console.log(req.user?.username);
   try {
     const post = await createPost({
       title: req.body.title,
@@ -30,7 +28,6 @@ export const createPostController = async (
       authorId: req.user?.username!,
       mentions: req.body.mentions,
     });
-    console.log(post);
     res.status(201).json(post);
     notifyNewPost();
   } catch (error) {

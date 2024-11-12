@@ -1,8 +1,3 @@
-import { createClient } from "redis";
-
-// src/services/auth.service.ts
-
-
 import bcrypt from "bcryptjs";
 import prisma from "../config/prisma.config";
 import IUser from "../interfaces/user.interface";
@@ -48,11 +43,8 @@ export const emailVerification = async (email: string): Promise<void> => {
   if (!user) {
     throw UserNotFoundError;
   }
-  console.log("Otp");
   const otp = generateOTP();
-  console.log("Store");
   await storeOTP(email, otp);
-  console.log("Send");
   await sendEmail(email, "Login to Cloudsek Backend", `Your OTP is ${otp}`);
 };
 
@@ -61,7 +53,6 @@ const generateOTP = (): string => {
 };
 
 const sendEmail = async (to: string, subject: string, text: string) => {
-  console.log(process.env.SENDINBLUE_USER, process.env.SENDINBLUE_API_KEY);
 
   await transporter.sendMail({
     from: "raimudit2003@gmail.com",
@@ -72,9 +63,7 @@ const sendEmail = async (to: string, subject: string, text: string) => {
 };
 
 const storeOTP = async (email: string, otp: string) => {
-  console.log("Redis init");
   const otpKey = createOtpKey(email);
-  console.log(otpKey, otp);
   await redis.set(otpKey, otp);
   await redis.expire(otpKey, 600);
 };
@@ -85,7 +74,6 @@ export const validateOTP = async (
 ): Promise<boolean> => {
   const emailOTP = createOtpKey(email);
   const otpVal = await redis.get(emailOTP);
-  console.log(emailOTP, otpVal, otp);
 
   if (!otpVal || otpVal != otp) {
     return false; // OTP is invalid or expired

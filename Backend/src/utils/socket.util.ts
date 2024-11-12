@@ -2,6 +2,8 @@ import { redisPublisher } from "../config/redis.config";
 import { IComment } from "../interfaces/comment.interface";
 import { createNotification } from "../services/notification.service";
 
+
+// notify in the event of comment 
 export const notifyNewComment = async (
   postOwnerId: string,
   commentData: IComment
@@ -15,6 +17,7 @@ export const notifyNewComment = async (
   redisPublisher.publish("newComment", notifcationBody);
 };
 
+// notify in the event of reply 
 export const notifyNewReply = async (
   commentOwnerId: string,
   replyData: IComment
@@ -31,6 +34,8 @@ export const notifyNewReply = async (
   );
 };
 
+
+// notify in the event of post
 export const notifyNewPost = async () => {
 
   await redisPublisher.publish("newPost",  JSON.stringify({message: "New posts available"}));
