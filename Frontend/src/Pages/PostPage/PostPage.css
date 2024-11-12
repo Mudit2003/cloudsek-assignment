@@ -1,0 +1,200 @@
+/* Body and General Layout */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #34495e;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+/* Post Box */
+.post {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Comment Section */
+.comments {
+  margin-top: 30px;
+}
+
+.comment {
+  background: #f9fafb;
+  border-left: 4px solid #3498db;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.comment:hover {
+  background-color: #ecf0f1;
+  transform: scale(1.02);
+}
+
+/* Comment Author */
+.comment .author {
+  font-weight: 600;
+  color: #2980b9;
+}
+
+/* Reply Button */
+.reply-btn {
+  background: #2980b9;
+  border: none;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reply-btn:hover {
+  background-color: #3498db;
+  transform: translateY(-3px);
+}
+
+.reply-btn:focus {
+  outline: none;
+}
+
+/* Nested Replies */
+.replies {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+/* Text Input Area (Quill) */
+.ql-container {
+  border-radius: 8px;
+  border: 1px solid #e1e8ee;
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.ql-editor {
+  font-size: 1rem;
+  color: #34495e;
+  min-height: 120px;
+  padding: 12px;
+  line-height: 1.5;
+}
+
+.ql-toolbar {
+  background-color: #f1f3f5;
+  border-radius: 8px 8px 0 0;
+  border: none;
+  padding: 8px 10px;
+}
+
+.ql-toolbar button {
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.ql-toolbar button:hover {
+  background-color: #ecf0f1;
+  transform: scale(1.1);
+}
+
+/* Button to submit comment */
+button {
+  background: #396188;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #445f7b;
+  transform: translateY(-3px);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Placeholder for input */
+.ql-editor.ql-blank::before {
+  color: #aaa;
+}
+
+/* Mention Input Box */
+.mention {
+  background-color: #d5e8f8;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color:black
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+/* Register.css */
+
+/* Container for the register form */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+    color: white;
+  }
+  
+  /* Content container for the form */
+  .register-content {
+    background-color: #2c2c2c; /* Darker box for the register form */
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title for the register form */
+  .register-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields styling */
+  .register-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Button styling */
+  .register-button {
+    padding: 10px;
+    border: none;
+    background-color: #444; /* Green color for Register */
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  .register-button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer with links */
+  .register-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for links */
+  .link-text {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link-text:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error message styling */
+  .error-text {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
