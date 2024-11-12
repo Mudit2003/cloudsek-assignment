@@ -34,7 +34,7 @@ export const registerController = async (
   } catch (error) {
     errorCastWithParams(next, error, RegistrationError);
   }
-};
+};  
 
 export const loginController = async (
   req: Request,
@@ -52,7 +52,10 @@ export const loginController = async (
     var { refreshToken, accessToken, user } = response;
     user.refreshToken = undefined;
 
-    res.cookie("refreshToken", response.refreshToken);
+    res.cookie("refreshToken", response.refreshToken , {
+      maxAge: parseInt(process.env.JWT_REFRESH_EXPIRES_IN || '604800'),
+
+    });
     res.status(200).json({user , accessToken});
   } catch (error) {
     errorCast(next, error, InvalidCredentialsError);
