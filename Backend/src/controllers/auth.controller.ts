@@ -49,19 +49,21 @@ export const loginController = async (
     if (!validateEmail || !password) {
       throw InvalidCredentialsError;
     }
-    
+    logger.debug("Validate me");
     const response = await login(email, password);
     var { refreshToken, accessToken, user } = response;
     user.refreshToken = undefined;
-    res.cookie("refreshToken", response.refreshToken , {
-      maxAge: parseInt(process.env.JWT_REFRESH_EXPIRES_IN as string || "604800") 
-      ,httpOnly:true, 
-      sameSite:"none",
-      path:"/",
-      secure:true,
+    res.cookie("refreshToken", response.refreshToken, {
+      maxAge: parseInt(
+        (process.env.JWT_REFRESH_EXPIRES_IN as string) || "604800"
+      ),
+      httpOnly: true,
+      sameSite: "none",
+      path: "/",
+      secure: true,
     });
-    
-    res.status(200).json({ user, accessToken , });
+    logger.debug('Return response');
+    res.status(200).json({ user, accessToken });
   } catch (error) {
     errorCast(next, error, InvalidCredentialsError);
   }

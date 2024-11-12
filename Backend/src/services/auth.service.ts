@@ -28,8 +28,10 @@ export const login = async (
   if (!user || !(await bcrypt.compare(password, user.password))) {
     throw InvalidCredentialsError;
   }
+  logger.debug("DB and PW");
   const accessToken = generateAccessToken(user);
   const refreshToken = await generateRefreshToken(user)
+  logger.debug("tokens")
   return { accessToken, refreshToken , user};
 };
 

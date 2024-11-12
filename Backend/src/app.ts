@@ -14,7 +14,7 @@ import errorHandler from "./middlewares/error.middleware";
 dotenv.config();
 
 const app: Application = express();
-app.set('trust proxy' , true)
+app.set("trust proxy", true);
 
 // Middleware
 app.use(express.json());
