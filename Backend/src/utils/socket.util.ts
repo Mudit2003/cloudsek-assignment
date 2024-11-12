@@ -31,6 +31,7 @@ export const notifyNewReply = async (
   );
 };
 
-export const notifyNewPost = () => {
-  redisPublisher.publish("newPost", "New posts available");
+export const notifyNewPost = async () => {
+
+  await redisPublisher.publish("newPost",  JSON.stringify({message: "New posts available"}));
 };

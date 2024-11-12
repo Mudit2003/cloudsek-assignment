@@ -14,27 +14,27 @@ import {
 import redis from "../config/redis.config";
 import transporter from "../config/mail.config";
 import { createUser, getUserByEmail } from "./user.service";
+import { InvalidCredentialsError, UserNotFoundError } from "../errors/auth.error";
 
 export const register = async (
   username: string,
   email: string,
   password: string
-): Promise<IUser> => {
-  return await createUser(username, password, email);
-};
+): Promise<IUser> => 
+  await createUser(username, password, email);
+
 
 export const login = async (
   email: string,
   password: string
-): Promise<{ accessToken: string; refreshToken: string }> => {
+): Promise<{ accessToken: string; refreshToken: string, user: IUser }> => {
   const user = await getUserByEmail(email);
   if (!user || !(await bcrypt.compare(password, user.password))) {
-    throw new Error("Invalid credentials");
+    throw InvalidCredentialsError;
   }
   const accessToken = generateAccessToken(user);
-  const refreshToken = await generateRefreshToken(user);
-
-  return { accessToken, refreshToken };
+  const refreshToken = await generateRefreshToken(user)
+  return { accessToken, refreshToken , user};
 };
 
 export const logout = async (userId: string): Promise<void> => {
@@ -46,7 +46,7 @@ const createOtpKey = (email: String) => `Otp-${email}`;
 export const emailVerification = async (email: string): Promise<void> => {
   const user = await prisma.user.findUnique({ where: { email } });
   if (!user) {
-    throw new Error("User not found");
+    throw UserNotFoundError;
   }
   console.log("Otp");
   const otp = generateOTP();

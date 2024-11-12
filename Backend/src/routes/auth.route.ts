@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { rateLimit } from "express-rate-limit";
 import {
+  changePasswordController,
   emailVerificationController,
   loginController,
   logoutController,
@@ -8,6 +9,9 @@ import {
   verifyOTPController,
 } from "../controllers/auth.controller";
 import { authenticateRequest } from "../middlewares/auth.middleware";
+import validate from "../middlewares/validate.middleware";
+import userSchema from "../validation/user.schema";
+import { verifyAuth } from "../middlewares/verifyauth.middleware";
 
 const router = Router();
 
@@ -21,9 +25,10 @@ const loginLimiter = rateLimit({
 });
 
 router.post("/login", loginLimiter, loginController);
-router.post("/register", registerController);
+router.post("/register", validate(userSchema),  registerController);
 router.post("/logout", authenticateRequest, logoutController);
-router.post("/forgotPassword", loginLimiter, emailVerificationController);
+router.post("/verifyEmail", loginLimiter, emailVerificationController);
 router.post("/validateOtp", verifyOTPController);
+router.post("/updatePassword" , verifyAuth, changePasswordController);
 
 export default router;

@@ -1,5 +1,6 @@
 import prisma from "../config/prisma.config";
 import { Request, Response } from "express";
+import { getAllUsers } from "../services/user.service";
 
 export const createUserController = async (req: Request, res: Response) => {
   try {
@@ -21,11 +22,10 @@ export const createUserController = async (req: Request, res: Response) => {
   }
 };
 
-
 export const getAllUserController = async (req: Request, res: Response) => {
   try {
     console.log(req.body);
-    const users = await prisma.user.findMany();
+    const users = await getAllUsers()
     console.log(users);
     if (!users) {
       res.status(404).json("Error creating a User");

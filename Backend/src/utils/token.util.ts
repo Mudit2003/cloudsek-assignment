@@ -1,8 +1,9 @@
 import jwt from "jsonwebtoken";
-import JWTClaims from "../interfaces/jwtClaims.interface";
 import IUser from "../interfaces/user.interface";
 import bcrypt from "bcryptjs";
 import prisma from "../config/prisma.config";
+import JWTClaims from "../interfaces/claim.interface";
+import { InvalidRefreshTokenError } from "../errors/auth.error";
 
 export const generateAccessToken = (user: IUser): string => {
   const payload: JWTClaims = {
@@ -45,7 +46,7 @@ export const generateRefreshToken = async (user: IUser): Promise<string> => {
       refreshToken: hashedRefreshToken,
     },
   });
-  console.log(logUser , hashedRefreshToken, refreshToken);
+  console.log(logUser, hashedRefreshToken, refreshToken);
   return refreshToken;
 };
 
@@ -56,10 +57,10 @@ const generateJWTID = (): string => {
 // Decode and verify the access token
 export const decodeAccessToken = (token: string): JWTClaims => {
   try {
-    console.log('token')
+    console.log("token");
     return jwt.verify(token, process.env.JWT_SECRET as string) as JWTClaims;
   } catch (err) {
-    console.log(err)
+    console.log(err);
     throw err;
   }
 };
@@ -81,14 +82,14 @@ export const decodeRefreshToken = (token: string): JWTClaims | null => {
 export const verifyRefreshToken = async (user: IUser, refreshToken: string) => {
   console.log(user);
   if (!user.refreshToken) {
-    throw new Error("No refresh token found for the user");
+    throw InvalidRefreshTokenError;
   }
   console.log(user);
   // Compare the refresh token with the stored hashed token
   const match = await bcrypt.compare(refreshToken, user.refreshToken);
-  console.log(match);
+  console.log('match' , match);
   if (!match) {
-    throw new Error("Invalid refresh token");
+    throw InvalidRefreshTokenError;
   }
 
   // If valid, generate new access and refresh tokens

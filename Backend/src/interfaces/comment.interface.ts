@@ -3,7 +3,6 @@ export interface IComment {
   postId: string;
   parentCommentId?: string | null;
   parentComment?: IComment;
-  commentId?: string;
   content: string;
   authorId: string;
   mentions?: string[];
@@ -19,7 +18,7 @@ export const mapToCommentSchema = ({ parentComment, ...data }: IComment) => ({
       ? {
           create: data.replies.map((reply: IComment) => ({
             postId: reply.postId,
-            commentId: reply.commentId,
+            parentComment: reply.parentCommentId,
             content: reply.content,
             authorId: reply.authorId,
             mentions: reply.mentions,

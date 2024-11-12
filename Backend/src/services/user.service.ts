@@ -1,12 +1,14 @@
 import prisma from "../config/prisma.config";
 import bcrypt from "bcryptjs";
+import { UserNotFoundError } from "../errors/auth.error";
+import IUser from "../interfaces/user.interface";
 
 export const checkIfUserExists = async (username: string) => {
   const user = await prisma.user.findUnique({
     where: { username },
   });
   if (!user) {
-    throw new Error(`User ${username} does not exist.`);
+    throw UserNotFoundError;
   }
   return user;
 };
@@ -37,7 +39,7 @@ export const getUserById = async (userId: string) => {
     },
   });
   if (!user) {
-    throw new Error("User not found");
+    throw UserNotFoundError;
   }
   return user;
 };
@@ -47,7 +49,6 @@ export const getUserByEmail = async (email: string) => {
     where: { email },
     include: {
       posts: true,
-      comments: true,
     },
   });
   if (!user) {
@@ -77,7 +78,7 @@ export const getAllUsers = async () => {
       comments: true,
     },
   });
-  return users;
+  return users.map(({ refreshToken, ...user }) => user);
 };
 
 export const updateUser = async (
@@ -88,11 +89,12 @@ export const updateUser = async (
     data.password = await bcrypt.hash(data.password, 16);
   }
 
-  const user = await prisma.user.update({
+
+  const { refreshToken, ...user } = await prisma.user.update({
     where: { id: userId },
     data: {
-      ...data,
-    },
+      ...data
+    }
   });
   return user;
 };
@@ -103,9 +105,9 @@ export const deleteUser = async (userId: string): Promise<void> => {
   });
 };
 
-export const verifyUserEmail = async (userId: string): Promise<any> => {
+export const verifyUserEmail = async (email: string): Promise<IUser> => {
   const user = await prisma.user.update({
-    where: { id: userId },
+    where: { email },
     data: {
       isVerified: true,
     },

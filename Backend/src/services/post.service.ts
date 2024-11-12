@@ -1,4 +1,5 @@
 import prisma from "../config/prisma.config";
+import { PostCreationError, PostNotFoundError } from "../errors/post.error";
 import { IPost } from "../interfaces/post.interface";
 import {
   deleteCache,
@@ -6,6 +7,7 @@ import {
   markStale,
   setCache,
 } from "../utils/cache.util";
+import { notifyNewPost } from "../utils/socket.util";
 
 const cacheAllPostKey = `all_posts-`;
 const cachePostKey = `post-`;
@@ -21,21 +23,28 @@ export const createPost = async (data: IPost) => {
       mentions: data.mentions,
     },
   });
-  if (createdPost) await setCache(cachePostKey + createdPost.id, createdPost);
-  return createPost;
+  console.log(createdPost);
+  if (!createdPost) throw PostCreationError;
+  await notifyNewPost()
+  await setCache(cachePostKey + createdPost.id, createdPost);
+  return createdPost;
 };
 
 // Retrieve a post by ID
-export const getPostById = async (postId: string) : Promise<IPost | null> => {
-  const cacheKey = `${cachePostKey}${postId}`;
-  const post = await getCache(cacheKey);
-  if (post) return post as IPost;
-
-  const postFromDB = await prisma.post.findUnique({
-    where: { id: postId },
-  });
-  if (postFromDB) await setCache(cachePostKey + postId, postFromDB);
-  return postFromDB;
+export const getPostById = async (postId: string): Promise<IPost> => {
+  try {
+    const cacheKey = `${cachePostKey}${postId}`;
+    const post = await getCache(cacheKey);
+    if (post) return post as IPost;
+  
+    const postFromDB = await prisma.post.findUniqueOrThrow({
+      where: { id: postId },
+    });
+    if (postFromDB) await setCache(cachePostKey + postId, postFromDB);
+    return postFromDB;
+  } catch (error) {
+    throw PostNotFoundError;
+  }
 };
 
 // Retrieve all posts

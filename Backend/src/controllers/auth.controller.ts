@@ -1,5 +1,4 @@
-// src/controllers/auth.controller.ts
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import {
   login,
   logout,
@@ -8,106 +7,121 @@ import {
   validateOTP,
 } from "../services/auth.service";
 import { IUserRequest } from "../interfaces/user.interface";
-import userSchema, { emailValidator } from "../validation/user.schema";
+import { emailValidator } from "../validation/user.schema";
 
-export const registerController = async (req: Request, res: Response) => {
+import {
+  EmailVerificationError,
+  InvalidCredentialsError,
+  LogoutError,
+  OTPValidationError,
+  PasswordChangeError,
+  RegistrationError,
+  UserNotAuthenticatedError,
+} from "../errors/auth.error";
+import { updateUser, verifyUserEmail } from "../services/user.service";
+import { decodeAccessToken, generateAccessToken } from "../utils/token.util";
+import { errorCast, errorCastWithParams } from "../utils/error.util";
+
+export const registerController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
-    const parsed = userSchema.safeParse(req.body);
-
-    if (!parsed.success) {
-      res.status(400).json({ error: parsed.error });
-      return;
-    }
-
     const { username, email, password } = req.body;
-
     const user = await register(username, email, password);
     res.status(201).json(user);
   } catch (error) {
-    res.status(400).json({ error: (error as Error).message });
+    errorCastWithParams(next, error, RegistrationError);
   }
 };
 
-export const loginController = async (req: Request, res: Response) => {
+export const loginController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const { email, password } = req.body;
     const validateEmail = emailValidator.safeParse(email).success;
     if (!validateEmail || !password) {
-      res.status(400).json({ error: "Bad Credential" });
-      return;
+      throw InvalidCredentialsError;
     }
 
-    const tokens = await login(email, password);
-    res.status(200).json(tokens);
+    const response = await login(email, password);
+    var { refreshToken, accessToken, user } = response;
+    user.refreshToken = undefined;
+
+    res.cookie("refreshToken", response.refreshToken);
+    res.status(200).json({user , accessToken});
   } catch (error) {
-    res.status(401).json({ error: (error as Error).message });
+    errorCast(next, error, InvalidCredentialsError);
   }
 };
 
-export const logoutController = async (req: IUserRequest, res: Response) => {
+export const logoutController = async (
+  req: IUserRequest,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const userId = req.user?.id;
     if (!userId) {
-      throw new Error("User not authenticated");
+      throw UserNotAuthenticatedError;
     }
     await logout(userId);
     res.status(204).send();
   } catch (error) {
-    res.status(400).json({ error: (error as Error).message });
+    errorCastWithParams(next, error, LogoutError);
   }
 };
 
 export const emailVerificationController = async (
   req: Request,
-  res: Response
+  res: Response,
+  next: NextFunction
 ) => {
   try {
     const { email } = req.body;
     await emailVerification(email);
     res.status(200).send("Email verification link sent");
   } catch (error) {
-    res.status(400).json({ error: (error as Error).message });
+    errorCast(next, error, EmailVerificationError);
   }
 };
 
-export const verifyOTPController = async (req: Request, res: Response) => {
-  try {
-    const { email, otp } = req.body;
-    const isValid = await validateOTP(email, otp);
-    if (isValid) {
-      res.status(200).json({ message: "OTP is valid" });
-    } else {
-      res.status(400).json({ error: "Invalid or expired OTP" });
-    }
-  } catch (error) {
-    res.status(400).json({ error: (error as Error).message });
-  }
-};
-
-export const verifyOTPAndChangePasswordController = async (req: Request, res: Response) => {
-  try {
-    const { email, otp } = req.body;
-    const isValid = await validateOTP(email, otp);
-    if (isValid) {
-      res.status(200).json({ message: "OTP is valid" });
-    } else {
-      res.status(400).json({ error: "Invalid or expired OTP" });
-    }
-  } catch (error) {
-    res.status(400).json({ error: (error as Error).message });
-  }
-};
-
-export const forgotPasswordController = async (
+export const verifyOTPController = async (
   req: Request,
-  res: Response
+  res: Response,
+  next: NextFunction
 ) => {
   try {
-    const { email } = req.body;
-    await emailVerification(email);
-    res.status(200).send("Password link sent");
+    const { email, otp } = req.body;
+    const isValid = await validateOTP(email, otp);
+    if (isValid) {
+      const user = await verifyUserEmail(email);
+      const accessToken = generateAccessToken(user);
+      res.setHeader("Authorization-Info", `Bearer ${accessToken}`);
+      res.status(200).json({ message: "OTP is valid" });
+    } else {
+      throw OTPValidationError;
+    }
   } catch (error) {
-    res.status(400).json({ error: (error as Error).message });
+    errorCast(next, error, OTPValidationError);
   }
 };
 
+export const changePasswordController = async (
+  req: IUserRequest,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { email, password } = req.body;
+    const user = req.user;
+    updateUser(user?.id!, {password});
+    res.status(200).json({ message: "Password changed successfully" });
+  } catch (error) {
+    errorCast(next, error, PasswordChangeError);
+  }
+};

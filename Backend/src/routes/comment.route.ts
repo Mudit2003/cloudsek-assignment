@@ -6,13 +6,15 @@ import {
   getCommentController,
   updateCommentController,
 } from "../controllers/comment.controller";
+import commentSchema from "../validation/comment.schema";
+import validate from "../middlewares/validate.middleware";
 
 const router = express.Router();
 
 // Route to add a comment
-router.post("/", createCommentController);
+router.post("/", validate(commentSchema), createCommentController);
 router.get("/:id", getCommentController);
-router.put("/:id", updateCommentController);
+router.put("/:id", validate(commentSchema.partial()), updateCommentController);
 router.delete("/:id", deleteCommentController);
 router.post("/post/:postId", getCommentByPostController);
 

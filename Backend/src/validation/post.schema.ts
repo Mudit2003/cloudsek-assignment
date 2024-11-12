@@ -8,17 +8,6 @@ export const postSchema = z.object({
 
   content: z.string().min(1, { message: "Content is required" }),
 
-  authorId: z.string().optional(),
-
-  media: z
-    .array(
-      z.object({
-        type: z.string(),
-        url: z.string().url({ message: "Invalid URL format" }),
-      })
-    )
-    .optional(),
-
   mentions: z.array(z.string()).optional(),
 });
 

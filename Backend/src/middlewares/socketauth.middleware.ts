@@ -7,6 +7,7 @@ import {
 } from "../utils/token.util";
 import { checkIfUserExists } from "../services/user.service";
 import IUser from "../interfaces/user.interface";
+import { TokenExpiredError } from "jsonwebtoken";
 
 export const authenticateSocket = (io: Server) => {
   io.use(async (socket, next) => {
@@ -24,7 +25,7 @@ export const authenticateSocket = (io: Server) => {
     try {
       decodedToken = decodeAccessToken(token);
     } catch (error) {
-      if (error instanceof Error && error.name === "TokenExpiredError") {
+      if (error === TokenExpiredError) {
         try {
           const claims = decodeRefreshToken(refreshToken);
 

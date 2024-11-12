@@ -3,38 +3,59 @@ import { IComment, mapToCommentSchema } from "../interfaces/comment.interface";
 import filterUndefined from "../utils/request.util";
 import { Optional } from "@prisma/client/runtime/library";
 import { notifyNewComment, notifyNewReply } from "../utils/socket.util";
+import {
+  CommentCreationError,
+  CommentNotFoundError,
+} from "../errors/comment.error";
+import { NotificationCreationError } from "../errors/notification.error";
+import { UserNotFoundError } from "../errors/auth.error";
+import { PostNotFoundError } from "../errors/post.error";
 
 const prisma = new PrismaClient();
 
 // this create comment can be create reply too
 export const createComment = async (data: IComment) => {
   let parentComment;
-  if (data.parentCommentId != null)
+  console.log(data);
+  if (data.parentCommentId)
     parentComment =
       data.parentComment ??
       (await prisma.comment.findFirst({
-        where: { parentCommentId: data.parentCommentId },
+        where: { id: data.parentCommentId },
       }));
-
+  console.log("Reached here", parentComment);
   // nested comment structure not allowed hence handling the same
-  if (parentComment && parentComment.parentCommentId != null) {
+  if (parentComment && parentComment!.parentCommentId) {
+    console.log(parentComment.parentCommentId);
     // the mentioned section shall be taken care of and preprocessed
     data.content = `@${parentComment.authorId} ` + data.content;
-    data.mentions?.push(parentComment.authorId ?? "");
+    data.mentions = [...(data.mentions ?? []), parentComment.authorId];
+    console.log(data.mentions);
     data.parentCommentId = parentComment.parentCommentId;
   }
+  console.log("Database next");
+  try {
+    const post = await prisma.post.findFirst({ where: { id: data.postId } });
+    if (!post) throw PostNotFoundError;
+    const comment: IComment = await prisma.comment.create(
+      mapToCommentSchema(data)
+    );
+    if (!comment) throw CommentCreationError;
 
-  const comment = await prisma.comment.create(mapToCommentSchema(data));
-  const post = await prisma.post.findFirst({ where: { id: data.postId } });
-  if (parentComment && parentComment?.parentCommentId != null) {
-    notifyNewReply(parentComment.authorId, comment);
+    if (parentComment && parentComment.id) {
+      console.log("reply", comment);
+      notifyNewReply(parentComment.authorId, comment);
+    } else {
+      console.log(comment);
+      if (comment && post) {
+        notifyNewComment(post.authorId, comment);
+      }
+    }
+    return comment;
+  } catch (error) {
+    if (error instanceof Error) throw CommentCreationError(error);
+    throw error;
   }
-  else if (comment && post) {
-    notifyNewComment(post.authorId, comment);
-  }
-
-
-  return comment;
 };
 
 export const getCommentsByPostId = async (postId: string) => {
@@ -51,8 +72,10 @@ export const getCommentsByPostId = async (postId: string) => {
   });
 };
 
-export const getCommentById = async (id: string) => {
-  return await prisma.comment.findFirst({ where: { id } });
+export const getCommentById = async (id: string): Promise<IComment> => {
+  const user = await prisma.comment.findFirst({ where: { id } });
+  if (!user) throw UserNotFoundError;
+  return user;
 };
 
 export const updateComment = async (
@@ -60,6 +83,7 @@ export const updateComment = async (
   data: Partial<IComment>
 ) => {
   const filteredData = filterUndefined(data);
+  console.log(data);
   return await prisma.comment.update({
     where: { id: commentId },
     data: filteredData as any, // the issue of id being not null

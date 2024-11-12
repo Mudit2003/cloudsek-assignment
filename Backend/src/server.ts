@@ -4,9 +4,14 @@ import http from "http";
 import app from "./app";
 import { redisSubscriber } from "./config/redis.config";
 import { authenticateSocket } from "./middlewares/socketauth.middleware";
-import { getNotificationsForUser } from "./services/notification.service";
+import {
+  getNotificationsForUser,
+  markNotificationsAsRead,
+} from "./services/notification.service";
+import { connectDB } from "./config/mongo.config";
 
 const server = http.createServer(app);
+connectDB();
 const io = new Server(server);
 io.on("connection", (socket) => {
   console.log("A user connected");
@@ -15,7 +20,7 @@ io.on("connection", (socket) => {
   redisSubscriber.subscribe(
     "newComment",
     "newReply",
-    "newPosts",
+    "newPost",
     (err, count) => {
       if (err) {
         console.error("Failed to subscribe: %s", err.message);
@@ -29,6 +34,7 @@ io.on("connection", (socket) => {
 
   // Listen for messages from Redis and emit to clients
   redisSubscriber.on("message", (channel, message) => {
+    console.log('Recieved');
     socket.emit(channel, JSON.parse(message));
   });
 
@@ -38,7 +44,7 @@ io.on("connection", (socket) => {
 
   // src/server.ts (within io.on('connection'))
   socket.on("fetchNotifications", async (userId) => {
-    const notifications = await getNotificationsForUser(userId);
+    const notifications = await markNotificationsAsRead(userId);
     socket.emit("notifications", notifications);
   });
 });

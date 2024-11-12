@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { sanitizeContent } from "../utils/content.util";
 import {
   createComment,
@@ -8,110 +8,105 @@ import {
   updateComment,
 } from "../services/comment.service";
 import { IUserRequest } from "../interfaces/user.interface";
-import commentSchema from "../validation/comment.schema";
 import { checkIfUserExists } from "../services/user.service";
 import { notifyNewComment } from "../utils/socket.util";
 import { getPostById } from "../services/post.service";
+import {
+  CommentCreationError,
+  CommentDeletionError,
+  CommentNotFoundError,
+  CommentUpdateError,
+} from "../errors/comment.error";
+import { errorCastWithParams } from "../utils/error.util";
 
 export const createCommentController = async (
   req: IUserRequest,
-  res: Response
+  res: Response,
+  next: NextFunction
 ) => {
-  const parsed = commentSchema.safeParse(req);
-
-  if (!parsed.success) {
-    res.status(400).json({ error: parsed.error });
-    return;
+  try {
+    await checkIfUserExists(req.body.authorId);
+    console.log("User check passed");
+    const sanitizedContent = sanitizeContent(req.body.content);
+    console.log(sanitizedContent);
+    console.log("Calling create comment");
+    const comment = await createComment({
+      postId: req.body.postId,
+      content: sanitizedContent,
+      authorId: req.user?.username ?? "",
+      parentCommentId: req.body.parentCommentId,
+      parentComment: req.body.parentComment,
+    });
+    console.log("comment", comment);
+    const post = await getPostById(req.body.postId);
+    console.log("post", post);
+    notifyNewComment(post.authorId, comment);
+    res.status(201).json(comment);
+  } catch (error) {
+    errorCastWithParams(next, error, CommentCreationError);
   }
-
-  checkIfUserExists(req.body.authorId);
-
-  const sanitizedContent = sanitizeContent(req.body.content);
-
-  const comment = await createComment({
-    postId: req.body.postId,
-    content: sanitizedContent,
-    authorId: req.user?.username ?? "",
-  });
-
-  const post = await getPostById(req.body.postId);
-  if (post) notifyNewComment(post.authorId, comment);
-  res.status(201).json(comment);
 };
 
 export const getCommentByPostController = async (
   req: Request,
-  res: Response
+  res: Response,
+  next: NextFunction
 ) => {
   try {
-    const comments = await getCommentsByPostId(req.params.id);
-
-    if (!comments) {
-      res.status(404).json({ error: "No Comments for this post" });
-      return;
-    }
-
+    const comments = (await getCommentsByPostId(req.params.id)) || [];
     res.status(200).json(comments);
   } catch (error) {
-    res.status(500).json({
-      error: error instanceof Error ? error.message : "Unknown error",
-    });
+    next(CommentNotFoundError);
   }
 };
 
-export const getCommentController = async (req: Request, res: Response) => {
+export const getCommentController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const comment = await getCommentById(req.params.id);
-
     if (!comment) {
-      res.status(404).json({ error: "Comment not found" });
-      return;
+      throw CommentNotFoundError;
     }
-
     res.status(200).json(comment);
   } catch (error) {
-    res.status(500).json({
-      error: error instanceof Error ? error.message : "Unknown error",
-    });
+    next(CommentNotFoundError);
   }
 };
 
-export const updateCommentController = async (req: Request, res: Response) => {
-  const parsed = commentSchema.safeParse(req.body);
-
-  if (!parsed.success) {
-    res.status(400).json({ error: parsed.error.errors });
-    return;
-  }
-
+export const updateCommentController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const updatedComment = await updateComment(req.params.id, req.body);
 
     if (!updatedComment) {
-      res.status(404).json({ error: "Comment not found" });
-      return;
+      throw CommentUpdateError;
     }
-
+    
     res.status(200).json(updatedComment);
   } catch (error) {
-    res.status(500).json({
-      error: error instanceof Error ? error.message : "Unknown error",
-    });
+    console.error(error);
+    errorCastWithParams(next, error, CommentUpdateError);
   }
 };
 
-export const deleteCommentController = async (req: Request, res: Response) => {
+export const deleteCommentController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     const deleted = await deleteComment(req.params.id);
-
     if (!deleted) {
-      res.status(404).json({ error: "Comment not found" });
-      return;
+      throw CommentNotFoundError;
     }
     res.status(204).send();
   } catch (error) {
-    res.status(500).json({
-      error: error instanceof Error ? error.message : "Unknown error",
-    });
+    errorCastWithParams(next, error, CommentDeletionError);
   }
 };
