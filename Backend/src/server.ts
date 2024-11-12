@@ -8,11 +8,13 @@ import {
   getNotificationsForUser,
   markNotificationsAsRead,
 } from "./services/notification.service";
-import { connectDB } from "./config/mongo.config";
+import connectDB from "./config/mongo.config";
 
 const server = http.createServer(app);
 connectDB();
-const io = new Server(server);
+
+export const io = new Server(server);
+
 io.on("connection", (socket) => {
   console.log("A user connected");
 
@@ -34,7 +36,7 @@ io.on("connection", (socket) => {
 
   // Listen for messages from Redis and emit to clients
   redisSubscriber.on("message", (channel, message) => {
-    console.log('Recieved');
+    console.log("Recieved");
     socket.emit(channel, JSON.parse(message));
   });
 

@@ -45,7 +45,7 @@ export const getUserById = async (userId: string) => {
 };
 
 export const getUserByEmail = async (email: string) => {
-  const user = await prisma.user.findUnique({
+  const user = await prisma.user.findUniqueOrThrow({
     where: { email },
     include: {
       posts: true,
@@ -89,12 +89,11 @@ export const updateUser = async (
     data.password = await bcrypt.hash(data.password, 16);
   }
 
-
   const { refreshToken, ...user } = await prisma.user.update({
     where: { id: userId },
     data: {
-      ...data
-    }
+      ...data,
+    },
   });
   return user;
 };
