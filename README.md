@@ -1,4 +1,17 @@
-# Backend
+# Backend (Node + Express + TS + Prisma)
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Backend Structure](#backend-structure)
+  - [Folder Description](#folder-description)
+- [API Docs](#api-docs)
+  - [Authentication](#authentication)
+  - [User API](#user-api)
+  - [Post API](#post-api)
+  - [Comment API](#comment-api)
+- [Error Handling](#error-handling)
+  - [Common Error Responses](#common-error-responses)
+
 
 ## Project Overview
 
@@ -70,11 +83,7 @@ The API supports CRUD operations for **posts**, **comments**, and **user authent
 
 - **Winston** is used for logging all requests, responses, and errors to help with debugging and monitoring the application.
 
-## Conclusion
-
-This backend API provides a secure, fast, and scalable solution for managing posts and notifications. By leveraging Redis for caching and pub/sub, PostgreSQL for structured data, and MongoDB for notifications, the system ensures high performance and reliability. Advanced security mechanisms such as token-based authentication, secure headers, and retry logic further enhance the robustness of the application.
-
-# Backend Structure
+## Backend Structure
 
 Below is the folder structure of the project:
 
