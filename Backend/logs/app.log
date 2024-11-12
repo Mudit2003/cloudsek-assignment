@@ -1,0 +1,2 @@
+2024-11-12 18:49:15 [info]: Server running on port 3000
+2024-11-12 18:49:15 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
