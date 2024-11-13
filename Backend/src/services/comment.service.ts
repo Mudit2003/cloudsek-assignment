@@ -38,7 +38,7 @@ export const createComment = async (data: IComment) => {
       mapToCommentSchema(data)
     );
     if (!comment) throw CommentCreationError;
-
+    
     if (parentComment && parentComment.id) {
       await notifyNewReply(parentComment.authorId, comment)
     } else {
@@ -68,7 +68,9 @@ export const getCommentsByPostId = async (postId: string) => {
 };
 
 export const getCommentById = async (id: string): Promise<IComment> => {
-  const user = await prisma.comment.findFirst({ where: { id } });
+  const user = await prisma.comment.findFirst({ where: { id } , include: {
+    post: true,
+  } });
   if (!user) throw UserNotFoundError;
   return user;
 };

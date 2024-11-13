@@ -1,3 +1,5 @@
+import { IPost } from "./post.interface";
+
 export interface IComment {
   id?: string;
   postId: string;
@@ -9,9 +11,10 @@ export interface IComment {
   replies?: IComment[];
   createdAt?: Date;
   updatedAt?: Date;
+  post?: IPost;
 }
 
-export const mapToCommentSchema = ({ parentComment, ...data }: IComment) => ({
+export const mapToCommentSchema = ({ post , parentComment, ...data }: IComment) => ({
   data: {
     ...data,
     replies: data.replies

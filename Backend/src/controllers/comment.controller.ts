@@ -18,6 +18,7 @@ import {
   CommentUpdateError,
 } from "../errors/comment.error";
 import { errorCastWithParams } from "../utils/error.util";
+import { PermissionDeniedError } from "../errors/config.error";
 
 export const createCommentController = async (
   req: IUserRequest,
@@ -71,17 +72,24 @@ export const getCommentController = async (
 };
 
 export const updateCommentController = async (
-  req: Request,
+  req: IUserRequest,
   res: Response,
   next: NextFunction
 ) => {
   try {
+
+    const comment = await getCommentById(req.params.id);
+    if (
+      req.user?.id !== comment.authorId
+    ) throw PermissionDeniedError; 
+    
+
     const updatedComment = await updateComment(req.params.id, req.body);
 
     if (!updatedComment) {
       throw CommentUpdateError;
     }
-    
+
     res.status(200).json(updatedComment);
   } catch (error) {
     errorCastWithParams(next, error, CommentUpdateError);
@@ -89,12 +97,18 @@ export const updateCommentController = async (
 };
 
 export const deleteCommentController = async (
-  req: Request,
+  req: IUserRequest,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const deleted = await deleteComment(req.params.id);
+    const comment = await getCommentById(req.params.id);
+    if (
+      req.user?.id !== comment.post?.authorId ||
+      req.user?.id !== comment.authorId
+    ) throw PermissionDeniedError; 
+
+      const deleted = await deleteComment(req.params.id);
     if (!deleted) {
       throw CommentNotFoundError;
     }

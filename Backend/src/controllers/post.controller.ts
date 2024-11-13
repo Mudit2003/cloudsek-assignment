@@ -6,7 +6,7 @@ import {
   getPostById,
   updatePost,
 } from "../services/post.service";
-import { IUserRequest } from "../interfaces/user.interface";
+import IUser, { IUserRequest } from "../interfaces/user.interface";
 import { notifyNewPost } from "../utils/socket.util";
 import {
   PostCreationError,
@@ -15,6 +15,7 @@ import {
   PostUpdateError,
 } from "../errors/post.error";
 import { errorCast, errorCastWithParams } from "../utils/error.util";
+import { PermissionDeniedError } from "../errors/config.error";
 
 export const createPostController = async (
   req: IUserRequest,
@@ -72,11 +73,15 @@ export const updatePostController = async (
 ) => {
   try {
     const { page, ...data } = req.body;
+    const post = await getPostById(req.params.id)
+
+    if(!post) throw PostNotFoundError; 
+    if(post.authorId !== req.user?.id) throw PermissionDeniedError; 
     
     const updatedPost = await updatePost(req.params.id, data, page);
 
     if (!updatedPost) {
-      throw PostNotFoundError;
+      throw PostUpdateError;
     }
 
     res.status(200).json(updatedPost);
@@ -86,11 +91,15 @@ export const updatePostController = async (
 };
 
 export const deletePostController = async (
-  req: Request,
+  req: IUserRequest,
   res: Response,
   next: NextFunction
 ) => {
   try {
+    const post = await getPostById(req.params.id)
+    if(!post) throw PostNotFoundError; 
+    if(post.authorId !== req.user?.id) throw PermissionDeniedError; 
+
     const deleted = await deletePost(req.params.id, req.body.page);
 
     if (!deleted) {
