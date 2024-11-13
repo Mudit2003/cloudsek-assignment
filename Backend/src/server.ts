@@ -3,22 +3,20 @@ import { Server } from "socket.io";
 import http from "http";
 import app from "./app";
 import { redisSubscriber } from "./config/redis.config";
-import {
-  markNotificationsAsRead,
-} from "./services/notification.service";
+import { markNotificationsAsRead } from "./services/notification.service";
 import connectDB from "./config/mongo.config";
 import logger from "./config/logger.config";
 
 const server = http.createServer(app);
 connectDB();
 
-export const io = new Server(server , {
+export const io = new Server(server, {
   cors: {
-    origin: true, 
+    origin: true,
     methods: ["GET", "POST"],
     allowedHeaders: "*",
-    credentials: true
-  }
+    credentials: true,
+  },
 });
 
 io.on("connection", (socket) => {

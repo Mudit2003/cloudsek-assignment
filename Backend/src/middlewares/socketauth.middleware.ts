@@ -33,7 +33,7 @@ export const authenticateSocket = (io: Server) => {
           const user: IUser = await checkIfUserExists(claims.username);
 
           const newAccessToken = await verifyRefreshToken(user, refreshToken);
-          socket.handshake.query.token = newAccessToken.newAccessToken; // Update the token for future use
+          socket.handshake.query.token = newAccessToken; // Update the token for future use
           // Optionally, you can send the new tokens back to the client
           const newRefreshToken = generateRefreshToken(user);
           socket.emit("updateTokens", {

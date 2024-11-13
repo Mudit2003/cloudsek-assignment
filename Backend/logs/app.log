@@ -6562,3 +6562,11 @@
 2024-11-13 16:03:31 [info]: A user connected
 2024-11-13 16:03:31 [info]: Subscribed successfully! This client is currently subscribed to 3 channels.
 2024-11-13 16:03:52 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 23:08:12 [info]: Server running on port 3000
+2024-11-13 23:08:15 [info]: [General] Connected to Redis.
+2024-11-13 23:08:15 [info]: [Publisher] Connected to Redis.
+2024-11-13 23:08:15 [info]: [Subscriber] Connected to Redis.
+2024-11-13 23:08:15 [info]: [General] Redis connection is ready.
+2024-11-13 23:08:15 [info]: [Publisher] Redis connection is ready.
+2024-11-13 23:08:15 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 23:08:25 [info]: MongoDB connected successfully
