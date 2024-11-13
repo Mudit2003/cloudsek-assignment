@@ -3466,3 +3466,566 @@
 2024-11-13 06:29:52 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
 2024-11-13 06:30:22 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
 2024-11-13 06:30:52 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 06:52:16 [info]: Server running on port 3000
+2024-11-13 06:52:16 [info]: [Publisher] Connected to Redis.
+2024-11-13 06:52:16 [info]: [General] Connected to Redis.
+2024-11-13 06:52:16 [info]: [Subscriber] Connected to Redis.
+2024-11-13 06:52:16 [info]: [Publisher] Redis connection is ready.
+2024-11-13 06:52:16 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 06:52:17 [info]: [General] Redis connection is ready.
+2024-11-13 06:52:17 [info]: MongoDB connected successfully
+2024-11-13 06:55:01 [info]: Here
+2024-11-13 06:57:41 [info]: Here
+2024-11-13 07:20:59 [info]: Here
+2024-11-13 11:11:25 [info]: Server running on port 3000
+2024-11-13 11:11:25 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:25 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:25 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:11:25 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 11:11:25 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:11:25 [warn]: [General] Redis connection has closed.
+2024-11-13 11:11:25 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:11:25 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:25 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 11:11:25 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:11:27 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:27 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:27 [warn]: [General] Redis connection has closed.
+2024-11-13 11:11:27 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 11:11:27 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 11:11:27 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 11:11:27 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:27 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 11:11:27 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 11:11:28 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:11:31 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:31 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:11:31 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 11:11:31 [info]: [Publisher] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 11:11:31 [warn]: [General] Redis connection has closed.
+2024-11-13 11:11:31 [info]: [General] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 11:11:31 [info]: [Subscriber] Connected to Redis.
+2024-11-13 11:11:32 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 11:11:34 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:11:39 [info]: [General] Connected to Redis.
+2024-11-13 11:11:39 [info]: [Publisher] Connected to Redis.
+2024-11-13 11:11:40 [info]: [General] Redis connection is ready.
+2024-11-13 11:11:40 [info]: [Publisher] Redis connection is ready.
+2024-11-13 11:11:46 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:12:10 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:13:23 [error]: Error connecting to MongoDB (Attempt 6): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:13:57 [info]: MongoDB connected successfully
+2024-11-13 11:14:43 [info]: Here
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 2): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 3): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 4): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 5): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 6): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 7): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 8): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 9): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 10): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 11): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 12): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 13): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 14): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 15): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 16): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:08 [error]: Error connecting to MongoDB (Attempt 17): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:08 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 18): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 19): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 20): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 21): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 22): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 23): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 24): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 25): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 26): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 27): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 28): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 29): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 30): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 31): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 32): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 33): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 34): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 35): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 36): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 37): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 38): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:09 [error]: Error connecting to MongoDB (Attempt 39): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:09 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 40): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 41): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 42): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 43): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 44): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 45): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 46): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 47): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 48): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 49): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 50): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 51): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 52): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 53): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 54): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 55): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 56): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 57): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 58): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 59): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:10 [error]: Error connecting to MongoDB (Attempt 60): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:10 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 61): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 62): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 63): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 64): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 65): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 66): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 67): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 68): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 69): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 70): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 71): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 72): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 73): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 74): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 75): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 76): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 77): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 78): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 79): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 80): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 81): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:11 [error]: Error connecting to MongoDB (Attempt 82): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:11 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 83): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 84): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 85): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 86): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 87): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 88): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 89): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 90): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 91): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 92): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 93): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 94): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 95): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 96): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 97): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 98): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 99): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 100): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 101): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 102): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 103): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:12 [error]: Error connecting to MongoDB (Attempt 104): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:12 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 105): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 106): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 107): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 108): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 109): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 110): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 111): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 112): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 113): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 114): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 115): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 116): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 117): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 118): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 119): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 120): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 121): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 122): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 123): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:13 [error]: Error connecting to MongoDB (Attempt 124): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:13 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 125): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 126): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 127): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 128): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 129): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 130): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 131): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 132): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 133): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 134): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 135): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 136): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 137): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 138): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 139): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 140): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 141): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 142): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 143): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 144): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 145): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:14 [error]: Error connecting to MongoDB (Attempt 146): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:14 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 147): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 148): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 149): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 150): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 151): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 152): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 153): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 11:15:15 [error]: Error connecting to MongoDB (Attempt 154): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:15 [error]: MongoDB connection error: queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:15:18 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:38 [info]: MongoDB connected successfully
+2024-11-13 11:15:39 [info]: MongoDB connected successfully
+2024-11-13 11:15:39 [info]: MongoDB connected successfully
+2024-11-13 11:16:32 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 11:16:32 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:16:34 [info]: [Subscriber] Connected to Redis.
+2024-11-13 11:16:34 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 11:16:40 [warn]: [General] Redis connection has closed.
+2024-11-13 11:16:40 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:16:40 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 11:16:40 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:16:42 [info]: [General] Connected to Redis.
+2024-11-13 11:16:42 [info]: [Publisher] Connected to Redis.
+2024-11-13 11:16:42 [info]: [General] Redis connection is ready.
+2024-11-13 11:16:42 [info]: [Publisher] Redis connection is ready.
+2024-11-13 11:18:57 [info]: Server running on port 3000
+2024-11-13 11:18:57 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:18:57 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:18:57 [warn]: [General] Redis connection has closed.
+2024-11-13 11:18:57 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:18:57 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 11:18:57 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 11:18:57 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 11:18:57 [info]: [Subscriber] Connected to Redis.
+2024-11-13 11:18:58 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 11:18:59 [info]: [Publisher] Connected to Redis.
+2024-11-13 11:18:59 [info]: [General] Connected to Redis.
+2024-11-13 11:18:59 [info]: [Publisher] Redis connection is ready.
+2024-11-13 11:19:00 [info]: [General] Redis connection is ready.
+2024-11-13 11:19:00 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:19:06 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:19:18 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 11:19:42 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net

@@ -46,8 +46,10 @@ export const authenticateRequest = async (
     if (error instanceof Error && error.name === "TokenExpiredError") {
       try {
         const claims = decodeRefreshToken(refreshToken as string);
-        if (!claims)
+        if (!claims){
           errorCast(next, InvalidRefreshTokenError, InvalidRefreshTokenError);
+          return;
+        }
         const user: IUser = await checkIfUserExists(claims!.username);
 
         const newAccessToken = await verifyRefreshToken(
