@@ -3,6 +3,7 @@ import {
   createPost,
   deletePost,
   getAllPosts,
+  getAllPostsByUser,
   getPostById,
   updatePost,
 } from "../services/post.service";
@@ -16,6 +17,7 @@ import {
 } from "../errors/post.error";
 import { errorCast, errorCastWithParams } from "../utils/error.util";
 import { PermissionDeniedError } from "../errors/config.error";
+import logger from "../config/logger.config";
 
 export const createPostController = async (
   req: IUserRequest,
@@ -36,18 +38,38 @@ export const createPostController = async (
   }
 };
 
-export const getAllPostsController = async (
-  req: Request,
+export const getUsersPost = async (
+  req: IUserRequest,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const posts = await getAllPosts(req.body.page || 1, req.body.limit || 20);
+    logger.debug("In")
+    const posts = await getAllPostsByUser(req.user!.username  ,req.body.page || 1 , req.body.limit || 20);
     if (!posts) {
       throw PostNotFoundError;
     }
     res.status(200).json(posts);
   } catch (error) {
+    logger.debug(error)
+    errorCast(next, error, PostNotFoundError);
+  }
+};
+
+export const getAllPostsController = async (
+  req: IUserRequest,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    logger.debug("In")
+    const posts = await getAllPosts(req.body.page || 1 , req.body.limit || 20);
+    if (!posts) {
+      throw PostNotFoundError;
+    }
+    res.status(200).json(posts);
+  } catch (error) {
+    logger.debug(error)
     errorCast(next, error, PostNotFoundError);
   }
 };

@@ -12,74 +12,65 @@ import {
   AccessTokenMissingError,
   InvalidAccessTokenError,
   InvalidRefreshTokenError,
+  LogoutError,
   RefreshTokenMissingError,
   TokenRefreshError,
 } from "../errors/auth.error";
-import { TokenExpiredError } from "jsonwebtoken";
+import { JsonWebTokenError, TokenExpiredError } from "jsonwebtoken";
 import { errorCast } from "../utils/error.util";
 import logger from "../config/logger.config";
+import { log } from "console";
 
 export const authenticateRequest = async (
   req: IUserRequest,
   res: Response,
   next: NextFunction
 ) => {
-  const authHeader = (req.headers.authorization ||
-    req.headers.Authorization) as String;
-
-  if (!authHeader || !authHeader.startsWith("Bearer ")) {
-    errorCast(next, AccessTokenMissingError, AccessTokenMissingError);
-    logger.info("Required return");
+  const authHeader = (req.headers.authorization || req.headers.Authorization) as string;
+  const refreshToken = req.cookies.refreshToken;
+  
+  if (!authHeader?.startsWith("Bearer ")) {
+    return errorCast(next, AccessTokenMissingError, AccessTokenMissingError);
   }
 
   const token = authHeader.split(" ")[1];
-  const refreshToken = req.cookies.refreshToken;
-
   if (!refreshToken) {
-    errorCast(next, RefreshTokenMissingError, RefreshTokenMissingError);
-    return; 
+    return errorCast(next, RefreshTokenMissingError, RefreshTokenMissingError);
   }
-  let decodedToken;
-  try {
-    decodedToken = decodeAccessToken(token);
-  } catch (error) {
-    if (error instanceof Error && error.name === "TokenExpiredError") {
-      try {
-        const claims = decodeRefreshToken(refreshToken as string);
-        if (!claims){
-          errorCast(next, InvalidRefreshTokenError, InvalidRefreshTokenError);
-          return;
-        }
-        const user: IUser = await checkIfUserExists(claims!.username);
 
-        const newAccessToken = await verifyRefreshToken(
-          user,
-          refreshToken as string
-        );
+  try {
+    // Decode access token
+    const decodedToken = decodeAccessToken(token);
+    if (!decodedToken) {
+      throw InvalidAccessTokenError;
+    }
+    req.user = {
+      id: decodedToken.sub,
+      email: decodedToken.email,
+      username: decodedToken.username,
+      isVerified: true,
+    };
+    return next();
+  } catch (error) {
+    if (error instanceof TokenExpiredError) {
+      
+      try {
+        const claims = decodeRefreshToken(refreshToken);
+        if (!claims) {
+          return errorCast(next, InvalidRefreshTokenError, InvalidRefreshTokenError);
+        }
+        
+        const user: IUser = await checkIfUserExists(claims.username);
+        const newAccessToken = await verifyRefreshToken(user, refreshToken);
+
         res.setHeader("Authorization", `Bearer ${newAccessToken}`);
-        req.user = user;
-        next(); // Proceed with the new token
-        return; 
+        req.user = user;  // Attach user to the request for next middleware/controller
+        return next();
       } catch (refreshError) {
-        errorCast(next, refreshError, TokenRefreshError(refreshError as Error));
-        return; 
+        return errorCast(next, refreshError, TokenRefreshError(refreshError as Error));
       }
     } else {
-      errorCast(next, TokenExpiredError, RefreshTokenMissingError);
-      return;
+      return errorCast(next, error, InvalidAccessTokenError);
     }
   }
-
-  if (!decodedToken) {
-    // in the case of the access token expiring
-    errorCast(next, InvalidAccessTokenError, InvalidAccessTokenError);
-    return; 
-  }
-  // Attach user information to the request object
-  req.user = {
-    id: decodedToken!.sub,
-    email: decodedToken!.email,
-    username: decodedToken!.username,
-    isVerified: true, // you will only be given a refresh token if you are verified hence you know that you are verified
-  };
 };

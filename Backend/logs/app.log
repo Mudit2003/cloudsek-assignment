@@ -4526,3 +4526,2039 @@
 2024-11-13 12:06:35 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
 2024-11-13 12:06:35 [warn]: [General] Redis connection has closed.
 2024-11-13 12:06:35 [info]: [General] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 12:11:22 [info]: Server running on port 3000
+2024-11-13 12:11:22 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:11:25 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:11:31 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:11:32 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:11:32 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:11:32 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:11:32 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:11:32 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:11:32 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:11:32 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:11:32 [warn]: [General] Redis connection has closed.
+2024-11-13 12:11:32 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:11:35 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:11:35 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:11:35 [info]: [General] Connected to Redis.
+2024-11-13 12:11:35 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:11:35 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:11:35 [info]: [General] Redis connection is ready.
+2024-11-13 12:11:43 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:12:08 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:12:32 [info]: Here
+2024-11-13 12:12:50 [info]: MongoDB connected successfully
+2024-11-13 12:18:50 [info]: Server running on port 3000
+2024-11-13 12:18:52 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:18:52 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:18:52 [info]: [General] Connected to Redis.
+2024-11-13 12:18:52 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:18:52 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:18:52 [info]: [General] Redis connection is ready.
+2024-11-13 12:19:37 [error]: Error connecting to MongoDB (Attempt 1): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:20:00 [info]: Server running on port 3000
+2024-11-13 12:20:01 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:20:01 [info]: [General] Connected to Redis.
+2024-11-13 12:20:01 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:20:01 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:20:01 [info]: [General] Redis connection is ready.
+2024-11-13 12:20:01 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:20:03 [info]: MongoDB connected successfully
+2024-11-13 12:22:41 [info]: Server running on port 3000
+2024-11-13 12:22:43 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:22:43 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:22:43 [info]: [General] Connected to Redis.
+2024-11-13 12:22:43 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:22:43 [info]: [General] Redis connection is ready.
+2024-11-13 12:22:44 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:24:11 [info]: Server running on port 3000
+2024-11-13 12:24:21 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:24:21 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:24:21 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:24:21 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:24:21 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:24:21 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:24:21 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:24:21 [warn]: [General] Redis connection has closed.
+2024-11-13 12:24:21 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:24:33 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:24:33 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:24:33 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:24:33 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:24:33 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:24:33 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:24:33 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:24:33 [warn]: [General] Redis connection has closed.
+2024-11-13 12:24:33 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:24:36 [error]: Error connecting to MongoDB (Attempt 1): Server selection timed out after 5000 ms
+2024-11-13 12:24:42 [info]: [General] Connected to Redis.
+2024-11-13 12:24:42 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:24:42 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:24:42 [info]: [General] Redis connection is ready.
+2024-11-13 12:24:42 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:24:42 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:24:43 [info]: MongoDB connected successfully
+2024-11-13 12:26:10 [info]: Server running on port 3000
+2024-11-13 12:26:10 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:26:11 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:26:11 [info]: [General] Connected to Redis.
+2024-11-13 12:26:11 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:26:11 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:26:11 [info]: [General] Redis connection is ready.
+2024-11-13 12:26:11 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:26:14 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:26:20 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:26:32 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:26:38 [info]: Here
+2024-11-13 12:26:56 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:27:23 [info]: Here
+2024-11-13 12:27:26 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:27:56 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:28:00 [info]: Required return
+2024-11-13 12:30:08 [info]: Server running on port 3000
+2024-11-13 12:30:08 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:30:08 [info]: [General] Connected to Redis.
+2024-11-13 12:30:08 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:30:08 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:30:08 [info]: [General] Redis connection is ready.
+2024-11-13 12:30:08 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:30:08 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:30:11 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:30:17 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:30:29 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:30:53 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:31:23 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:32:10 [info]: Server running on port 3000
+2024-11-13 12:32:10 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:32:11 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:32:11 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:32:11 [info]: [General] Connected to Redis.
+2024-11-13 12:32:11 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:32:11 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:32:11 [info]: [General] Redis connection is ready.
+2024-11-13 12:32:13 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:32:19 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:32:31 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:32:56 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:33:26 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:33:56 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:34:26 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:35:05 [info]: Server running on port 3000
+2024-11-13 12:35:05 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:35:05 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:35:05 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:35:05 [info]: [General] Connected to Redis.
+2024-11-13 12:35:05 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:35:05 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:35:05 [info]: [General] Redis connection is ready.
+2024-11-13 12:35:08 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:35:14 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:35:26 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:36:36 [error]: Error connecting to MongoDB (Attempt 5): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:37:07 [info]: MongoDB connected successfully
+2024-11-13 12:37:38 [info]: Server running on port 3000
+2024-11-13 12:37:38 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:37:41 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:37:47 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:37:49 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:37:49 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:37:49 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:37:49 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:37:49 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:37:49 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:37:49 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:37:49 [warn]: [General] Redis connection has closed.
+2024-11-13 12:37:49 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:37:59 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:38:01 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:01 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:01 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:01 [warn]: [General] Redis connection has closed.
+2024-11-13 12:38:01 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:38:01 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:38:01 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:38:01 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:38:01 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:38:15 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:15 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:15 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:15 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:38:15 [info]: [Subscriber] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 12:38:15 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:38:15 [info]: [Publisher] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 12:38:15 [warn]: [General] Redis connection has closed.
+2024-11-13 12:38:15 [info]: [General] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 12:38:28 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:38:28 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:38:28 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:38:28 [info]: [Publisher] Attempting to reconnect to Redis after 16000ms...
+2024-11-13 12:38:28 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:38:28 [info]: [Subscriber] Attempting to reconnect to Redis after 16000ms...
+2024-11-13 12:38:33 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:33 [warn]: [General] Redis connection has closed.
+2024-11-13 12:38:33 [info]: [General] Attempting to reconnect to Redis after 16000ms...
+2024-11-13 12:38:54 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:54 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:38:54 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:38:54 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:38:54 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:38:54 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:38:58 [info]: [General] Connected to Redis.
+2024-11-13 12:38:58 [info]: [General] Redis connection is ready.
+2024-11-13 12:39:12 [error]: Error connecting to MongoDB (Attempt 5): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:39:34 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:39:34 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:39:34 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:39:34 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:39:34 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:39:34 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:39:42 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:40:12 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:40:15 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:40:15 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:40:15 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:40:15 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:40:15 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:40:15 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:40:42 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:40:55 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:40:55 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:40:55 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:40:55 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:40:55 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:40:55 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:41:12 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:41:35 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:41:35 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:41:35 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:41:35 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:41:35 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:41:35 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:41:42 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:42:12 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:42:15 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:42:15 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:42:15 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:42:15 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:42:15 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:42:15 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:42:42 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:42:55 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:42:55 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:42:55 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:42:55 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:42:55 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:42:56 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:43:12 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:43:36 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:43:36 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:43:36 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:43:36 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:43:36 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:43:36 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:43:42 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:43:58 [warn]: [General] Redis connection has closed.
+2024-11-13 12:43:58 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 12:44:10 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:44:10 [warn]: [General] Redis connection has closed.
+2024-11-13 12:44:10 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 12:44:12 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:44:16 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:44:16 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:44:16 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:44:16 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:44:16 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:44:16 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:44:24 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:44:24 [warn]: [General] Redis connection has closed.
+2024-11-13 12:44:24 [info]: [General] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 12:44:32 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:44:32 [warn]: [General] Redis connection has closed.
+2024-11-13 12:44:32 [info]: [General] Attempting to reconnect to Redis after 16000ms...
+2024-11-13 12:44:42 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:44:46 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:44:46 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:44:46 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:44:46 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:44:46 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:44:46 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:44:58 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:44:58 [warn]: [General] Redis connection has closed.
+2024-11-13 12:44:58 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:45:13 [error]: Error connecting to MongoDB (Attempt 17): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:45:26 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:45:26 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:45:26 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:45:26 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:45:26 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:45:26 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:45:38 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:45:38 [warn]: [General] Redis connection has closed.
+2024-11-13 12:45:38 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:45:43 [error]: Error connecting to MongoDB (Attempt 18): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:46:06 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:46:06 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:46:06 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:46:06 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:46:06 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:46:06 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:46:13 [error]: Error connecting to MongoDB (Attempt 19): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:46:18 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:46:18 [warn]: [General] Redis connection has closed.
+2024-11-13 12:46:18 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:46:43 [error]: Error connecting to MongoDB (Attempt 20): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 12:46:46 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:46:46 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:46:46 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:46:46 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:46:46 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:46:46 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:46:59 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:46:59 [warn]: [General] Redis connection has closed.
+2024-11-13 12:46:59 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:47:27 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:47:27 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:47:27 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:47:27 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:47:27 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:47:27 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:47:39 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:47:39 [warn]: [General] Redis connection has closed.
+2024-11-13 12:47:39 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:48:07 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:48:07 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:48:07 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:48:07 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:48:07 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:48:07 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:48:19 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:48:19 [warn]: [General] Redis connection has closed.
+2024-11-13 12:48:19 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:48:47 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:48:47 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:48:47 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:48:47 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:48:47 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:48:47 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:48:59 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:48:59 [warn]: [General] Redis connection has closed.
+2024-11-13 12:48:59 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:49:27 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:49:27 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:49:27 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:49:27 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:49:27 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:49:27 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:49:39 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:49:39 [warn]: [General] Redis connection has closed.
+2024-11-13 12:49:39 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:50:07 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:50:07 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:50:07 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:50:07 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:50:07 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:50:07 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:50:19 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:50:19 [warn]: [General] Redis connection has closed.
+2024-11-13 12:50:19 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:50:47 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:50:47 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:50:47 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:50:47 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:50:47 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:50:47 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:50:59 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:50:59 [warn]: [General] Redis connection has closed.
+2024-11-13 12:50:59 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:51:27 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:51:27 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:51:27 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:51:27 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:51:27 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:51:27 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:51:39 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:51:39 [warn]: [General] Redis connection has closed.
+2024-11-13 12:51:39 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:52:07 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:52:07 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:52:07 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:52:07 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:52:07 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:52:07 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:52:19 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:52:19 [warn]: [General] Redis connection has closed.
+2024-11-13 12:52:19 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:52:48 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:52:48 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:52:48 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:52:48 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:52:48 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:52:48 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:52:59 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:52:59 [warn]: [General] Redis connection has closed.
+2024-11-13 12:52:59 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:53:28 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:53:28 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:53:28 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:53:28 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:53:28 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:53:28 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:53:39 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:53:39 [warn]: [General] Redis connection has closed.
+2024-11-13 12:53:39 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:54:08 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 12:54:08 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 12:54:08 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:54:08 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:54:08 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:54:08 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:54:19 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:54:19 [warn]: [General] Redis connection has closed.
+2024-11-13 12:54:19 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:54:38 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:54:38 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:54:38 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:54:38 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:54:38 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:54:38 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:54:59 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 12:54:59 [warn]: [General] Redis connection has closed.
+2024-11-13 12:54:59 [info]: [General] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:55:08 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:55:08 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 12:55:08 [info]: [Publisher] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:55:08 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 12:55:08 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 12:55:08 [info]: [Subscriber] Attempting to reconnect to Redis after 30000ms...
+2024-11-13 12:55:30 [info]: [General] Connected to Redis.
+2024-11-13 12:55:30 [info]: [General] Redis connection is ready.
+2024-11-13 12:55:39 [info]: [Publisher] Connected to Redis.
+2024-11-13 12:55:39 [info]: [Subscriber] Connected to Redis.
+2024-11-13 12:55:39 [info]: [Publisher] Redis connection is ready.
+2024-11-13 12:55:39 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 12:58:33 [info]: Here
+2024-11-13 13:00:30 [warn]: [General] Redis connection has closed.
+2024-11-13 13:00:30 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:00:33 [info]: [General] Connected to Redis.
+2024-11-13 13:00:33 [info]: [General] Redis connection is ready.
+2024-11-13 13:00:39 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:00:39 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:00:39 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:00:39 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:00:41 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:00:41 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:00:41 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:00:41 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:02:43 [info]: Server running on port 3000
+2024-11-13 13:02:43 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:02:43 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:02:43 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:02:43 [info]: [General] Connected to Redis.
+2024-11-13 13:02:43 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:02:43 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:02:43 [info]: [General] Redis connection is ready.
+2024-11-13 13:02:46 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:02:52 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:03:04 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:03:28 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:03:58 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:04:28 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:04:56 [info]: Server running on port 3000
+2024-11-13 13:04:56 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:04:56 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:04:56 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:04:56 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:04:56 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:04:56 [warn]: [General] Redis connection has closed.
+2024-11-13 13:04:56 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:04:56 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:04:56 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:04:58 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:04:58 [info]: [General] Connected to Redis.
+2024-11-13 13:04:58 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:04:58 [info]: [General] Redis connection is ready.
+2024-11-13 13:04:59 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:05:05 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:05:29 [info]: Server running on port 3000
+2024-11-13 13:05:29 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:05:30 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:05:30 [info]: [General] Connected to Redis.
+2024-11-13 13:05:30 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:05:30 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:05:30 [info]: [General] Redis connection is ready.
+2024-11-13 13:05:30 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:05:32 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:05:39 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:05:51 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:06:15 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:06:45 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:07:14 [info]: Server running on port 3000
+2024-11-13 13:07:14 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:07:14 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:07:14 [info]: [General] Connected to Redis.
+2024-11-13 13:07:14 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:07:14 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:07:14 [info]: [General] Redis connection is ready.
+2024-11-13 13:07:14 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:07:17 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:07:23 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:07:35 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:07:59 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:08:29 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:08:59 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:09:29 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:10:11 [info]: Server running on port 3000
+2024-11-13 13:10:11 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:10:11 [info]: [General] Connected to Redis.
+2024-11-13 13:10:11 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:10:11 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:10:11 [info]: [General] Redis connection is ready.
+2024-11-13 13:10:11 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:10:11 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:10:14 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:10:20 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:10:32 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:10:36 [info]: Here
+2024-11-13 13:10:56 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:11:26 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:11:56 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:12:26 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:12:56 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:13:30 [info]: Server running on port 3000
+2024-11-13 13:13:30 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:13:30 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:13:30 [info]: [General] Connected to Redis.
+2024-11-13 13:13:30 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:13:30 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:13:30 [info]: [General] Redis connection is ready.
+2024-11-13 13:13:30 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:13:33 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:13:39 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:13:51 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:14:15 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:14:42 [info]: Server running on port 3000
+2024-11-13 13:14:42 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:14:42 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:14:42 [warn]: [General] Redis connection has closed.
+2024-11-13 13:14:42 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:14:42 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:14:42 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:14:42 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:14:43 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:14:43 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:14:45 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:14:45 [info]: [General] Connected to Redis.
+2024-11-13 13:14:45 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:14:45 [info]: [General] Redis connection is ready.
+2024-11-13 13:14:45 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:14:51 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:15:04 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:15:28 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:06 [info]: Server running on port 3000
+2024-11-13 13:16:06 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:06 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:16:06 [info]: [General] Connected to Redis.
+2024-11-13 13:16:07 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:16:07 [info]: [General] Redis connection is ready.
+2024-11-13 13:16:07 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:16:07 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:16:09 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:15 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:27 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:46 [info]: Server running on port 3000
+2024-11-13 13:16:46 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:46 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:16:46 [info]: [General] Connected to Redis.
+2024-11-13 13:16:46 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:16:46 [info]: [General] Redis connection is ready.
+2024-11-13 13:16:47 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:16:47 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:16:49 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:16:55 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:17:07 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:17:31 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:18:01 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:18:31 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:19:01 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:19:16 [info]: Server running on port 3000
+2024-11-13 13:19:16 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:19:16 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:19:16 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:19:16 [info]: [General] Connected to Redis.
+2024-11-13 13:19:16 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:19:16 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:19:16 [info]: [General] Redis connection is ready.
+2024-11-13 13:19:19 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:19:29 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:19:41 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:20:05 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:20:35 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:21:05 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:21:35 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:21:56 [info]: Server running on port 3000
+2024-11-13 13:21:56 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:21:56 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:21:56 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:21:56 [info]: [General] Connected to Redis.
+2024-11-13 13:21:56 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:21:56 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:21:56 [info]: [General] Redis connection is ready.
+2024-11-13 13:21:59 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:22:17 [info]: Server running on port 3000
+2024-11-13 13:22:17 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:22:18 [info]: [General] Connected to Redis.
+2024-11-13 13:22:18 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:22:18 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:22:18 [info]: [General] Redis connection is ready.
+2024-11-13 13:22:18 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:22:18 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:22:20 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:22:26 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:22:38 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:22:51 [info]: Here
+2024-11-13 13:23:02 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:23:32 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:24:03 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:26:51 [info]: Server running on port 3000
+2024-11-13 13:26:51 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:26:51 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:26:51 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:26:51 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:26:51 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:26:51 [warn]: [General] Redis connection has closed.
+2024-11-13 13:26:51 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:26:52 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:26:52 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:26:54 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:26:54 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:26:55 [info]: [General] Connected to Redis.
+2024-11-13 13:26:55 [info]: MongoDB connected successfully
+2024-11-13 13:26:57 [info]: [General] Redis connection is ready.
+2024-11-13 13:31:52 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:31:52 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:31:54 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:31:54 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:31:54 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:31:54 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:31:54 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:31:55 [warn]: [General] Redis connection has closed.
+2024-11-13 13:31:55 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:31:56 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:31:57 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:31:58 [info]: [General] Connected to Redis.
+2024-11-13 13:31:58 [info]: [General] Redis connection is ready.
+2024-11-13 13:31:59 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:31:59 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:36:49 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:36:57 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:36:57 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:36:58 [warn]: [General] Redis connection has closed.
+2024-11-13 13:36:58 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:36:59 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:36:59 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:36:59 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:36:59 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:37:00 [info]: [General] Connected to Redis.
+2024-11-13 13:37:00 [info]: [General] Redis connection is ready.
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 17): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 18): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:01 [error]: Error connecting to MongoDB (Attempt 19): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:01 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 20): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 21): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 22): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 23): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 24): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 25): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 26): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 27): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 28): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 29): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 30): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 31): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 32): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 33): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 34): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 35): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 36): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 37): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 38): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 39): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 40): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:02 [error]: Error connecting to MongoDB (Attempt 41): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:02 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 42): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 43): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 44): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 45): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 46): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 47): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 48): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 49): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 50): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 51): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 52): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 53): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 54): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 55): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 56): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 57): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 58): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 59): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 60): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 61): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 62): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 63): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 64): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:03 [error]: Error connecting to MongoDB (Attempt 65): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:03 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 66): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 67): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 68): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 69): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 70): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 71): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 72): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 73): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 74): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 75): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 76): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 77): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 78): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 79): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 80): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 81): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 82): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 83): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 84): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 85): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 86): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:04 [error]: Error connecting to MongoDB (Attempt 87): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:04 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 88): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 89): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 90): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 91): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 92): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 93): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 94): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 95): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 96): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 97): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 98): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 99): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 100): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 101): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 102): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 103): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 104): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 105): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 106): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 107): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 108): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 109): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 110): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:05 [error]: Error connecting to MongoDB (Attempt 111): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:05 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 112): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 113): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 114): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 115): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 116): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 117): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 118): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 119): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:06 [error]: Error connecting to MongoDB (Attempt 120): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:06 [error]: MongoDB connection error: querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:07 [info]: MongoDB connected successfully
+2024-11-13 13:37:39 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:41 [info]: MongoDB connected successfully
+2024-11-13 13:37:49 [error]: MongoDB connection lost. Reconnecting...
+2024-11-13 13:37:51 [info]: MongoDB connected successfully
+2024-11-13 13:41:08 [info]: Here
+2024-11-13 13:41:59 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:41:59 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:42:00 [warn]: [General] Redis connection has closed.
+2024-11-13 13:42:00 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:42:01 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:42:01 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:42:02 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:42:02 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:42:03 [info]: [General] Connected to Redis.
+2024-11-13 13:42:03 [info]: [General] Redis connection is ready.
+2024-11-13 13:42:04 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:42:04 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:43:31 [info]: Server running on port 3000
+2024-11-13 13:43:31 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:43:31 [info]: [General] Connected to Redis.
+2024-11-13 13:43:31 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:43:31 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:43:31 [info]: [General] Redis connection is ready.
+2024-11-13 13:43:31 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:43:31 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:43:34 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:43:42 [error]: Error connecting to MongoDB (Attempt 3): querySrv ESERVFAIL _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:43:54 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:44:18 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:44:54 [info]: Server running on port 3000
+2024-11-13 13:44:54 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:44:54 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:44:54 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:44:54 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:44:54 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:44:54 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:44:54 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:44:54 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:44:54 [warn]: [General] Redis connection has closed.
+2024-11-13 13:44:54 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:44:56 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:44:56 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:44:56 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:44:56 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:44:56 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:44:56 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:44:56 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:44:56 [warn]: [General] Redis connection has closed.
+2024-11-13 13:44:56 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:44:57 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:45:00 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:45:00 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:45:00 [info]: [General] Connected to Redis.
+2024-11-13 13:45:00 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:45:00 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:45:00 [info]: [General] Redis connection is ready.
+2024-11-13 13:45:03 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:45:15 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:45:34 [info]: Server running on port 3000
+2024-11-13 13:45:34 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:45:35 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:45:35 [info]: [General] Connected to Redis.
+2024-11-13 13:45:35 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:45:35 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:45:35 [info]: [General] Redis connection is ready.
+2024-11-13 13:45:35 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:45:37 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:45:46 [error]: Error connecting to MongoDB (Attempt 3): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:45:59 [info]: MongoDB connected successfully
+2024-11-13 13:48:57 [info]: Server running on port 3000
+2024-11-13 13:48:58 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:48:58 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:48:58 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:48:58 [warn]: [General] Redis connection has closed.
+2024-11-13 13:48:58 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:48:58 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:48:58 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:48:58 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:48:58 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:48:58 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:49:00 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:49:00 [info]: [General] Connected to Redis.
+2024-11-13 13:49:00 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:49:00 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:49:00 [info]: [General] Redis connection is ready.
+2024-11-13 13:49:00 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:49:01 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:49:07 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:49:19 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:49:43 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:50:13 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:50:43 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:51:13 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:51:39 [info]: Server running on port 3000
+2024-11-13 13:51:39 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:51:40 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:51:40 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:51:40 [info]: [General] Connected to Redis.
+2024-11-13 13:51:40 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:51:40 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:51:40 [info]: [General] Redis connection is ready.
+2024-11-13 13:51:42 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:51:49 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:52:01 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:52:08 [info]: Here
+2024-11-13 13:52:25 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:52:55 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:53:42 [info]: Server running on port 3000
+2024-11-13 13:53:42 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:53:43 [info]: [General] Connected to Redis.
+2024-11-13 13:53:43 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:53:43 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:53:43 [info]: [General] Redis connection is ready.
+2024-11-13 13:53:43 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:53:43 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:53:45 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:53:51 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:54:03 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:54:28 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:54:58 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:55:28 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:55:58 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:56:28 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:56:58 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:57:28 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:57:58 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:58:28 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:58:43 [warn]: [General] Redis connection has closed.
+2024-11-13 13:58:43 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:58:43 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:58:43 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:58:43 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:58:43 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 13:58:45 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:58:45 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:58:45 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 13:58:45 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:58:45 [warn]: [General] Redis connection has closed.
+2024-11-13 13:58:45 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:58:45 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 13:58:45 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 13:58:45 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 13:58:53 [info]: [Subscriber] Connected to Redis.
+2024-11-13 13:58:53 [info]: [Publisher] Connected to Redis.
+2024-11-13 13:58:55 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 13:58:55 [info]: [Publisher] Redis connection is ready.
+2024-11-13 13:58:56 [info]: [General] Connected to Redis.
+2024-11-13 13:58:57 [info]: [General] Redis connection is ready.
+2024-11-13 13:58:58 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 13:59:28 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:01:29 [info]: Server running on port 3000
+2024-11-13 14:01:29 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:01:29 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:01:29 [warn]: [General] Redis connection has closed.
+2024-11-13 14:01:29 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:01:29 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:01:29 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:01:29 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:01:29 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:01:29 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:01:31 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:01:31 [info]: [General] Connected to Redis.
+2024-11-13 14:01:31 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:01:31 [info]: [General] Redis connection is ready.
+2024-11-13 14:01:32 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:01:38 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:01:50 [info]: Here
+2024-11-13 14:01:50 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:02:14 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:02:44 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:03:14 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:03:28 [error]: [Subscriber] Redis error: read ECONNRESET
+2024-11-13 14:03:28 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:03:28 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:03:28 [error]: [General] Redis error: read ECONNRESET
+2024-11-13 14:03:28 [error]: [Publisher] Redis error: read ECONNRESET
+2024-11-13 14:03:28 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:03:28 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:03:28 [warn]: [General] Redis connection has closed.
+2024-11-13 14:03:28 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:03:40 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 14:03:40 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 14:03:40 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 14:03:40 [warn]: [General] Redis connection has closed.
+2024-11-13 14:03:40 [info]: [General] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 14:03:40 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:03:40 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 14:03:40 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:03:40 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 14:03:51 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:03:54 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 14:03:54 [warn]: [General] Redis connection has closed.
+2024-11-13 14:03:54 [info]: [General] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 14:03:54 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 14:03:54 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 14:03:54 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:03:54 [info]: [Subscriber] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 14:03:54 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:03:54 [info]: [Publisher] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 14:04:24 [info]: Server running on port 3000
+2024-11-13 14:04:24 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:04:25 [info]: [General] Connected to Redis.
+2024-11-13 14:04:25 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:04:25 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:04:25 [info]: [General] Redis connection is ready.
+2024-11-13 14:04:25 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:04:25 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:04:27 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:04:33 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:04:54 [error]: Error connecting to MongoDB (Attempt 4): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:05:19 [info]: MongoDB connected successfully
+2024-11-13 14:06:53 [info]: Server running on port 3000
+2024-11-13 14:06:54 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:06:54 [info]: [General] Connected to Redis.
+2024-11-13 14:06:54 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:06:54 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:06:54 [info]: [General] Redis connection is ready.
+2024-11-13 14:06:54 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:06:54 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:06:57 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:07:03 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:07:15 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:07:39 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:08:18 [info]: Server running on port 3000
+2024-11-13 14:08:18 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:08:18 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:08:18 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:08:18 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:08:18 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:08:18 [warn]: [General] Redis connection has closed.
+2024-11-13 14:08:18 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:08:18 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:08:19 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:08:20 [info]: [General] Connected to Redis.
+2024-11-13 14:08:20 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:08:20 [info]: [General] Redis connection is ready.
+2024-11-13 14:08:20 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:08:21 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:08:27 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:08:39 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:09:14 [info]: Server running on port 3000
+2024-11-13 14:09:15 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:09:15 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:09:15 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:09:15 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:09:15 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:09:15 [warn]: [General] Redis connection has closed.
+2024-11-13 14:09:15 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:09:15 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:09:15 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:09:15 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:09:17 [info]: [General] Connected to Redis.
+2024-11-13 14:09:17 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:09:17 [info]: [General] Redis connection is ready.
+2024-11-13 14:09:17 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:09:17 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:09:18 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:09:18 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:09:24 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:09:36 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:10:00 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:10:30 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:11:00 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:11:30 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:12:00 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:12:30 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:13:00 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:13:30 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:14:00 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:14:17 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:14:17 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:14:20 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:14:20 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:14:30 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:15:01 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:15:31 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:15:32 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:15:32 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:15:34 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:15:34 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:15:50 [warn]: [General] Redis connection has closed.
+2024-11-13 14:15:50 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:15:53 [info]: [General] Connected to Redis.
+2024-11-13 14:15:53 [info]: [General] Redis connection is ready.
+2024-11-13 14:16:01 [error]: Error connecting to MongoDB (Attempt 17): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:16:50 [error]: Error connecting to MongoDB (Attempt 18): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:17:20 [error]: Error connecting to MongoDB (Attempt 19): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:17:50 [error]: Error connecting to MongoDB (Attempt 20): queryTxt ESERVFAIL cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:18:12 [info]: Here
+2024-11-13 14:19:20 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:19:20 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:19:22 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:19:22 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:19:22 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 14:19:26 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:19:27 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:19:54 [info]: Server running on port 3000
+2024-11-13 14:19:54 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:19:54 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:19:54 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:19:54 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:19:54 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:19:54 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:19:54 [warn]: [General] Redis connection has closed.
+2024-11-13 14:19:54 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:19:54 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:19:54 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:19:57 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:19:57 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:19:57 [info]: [General] Connected to Redis.
+2024-11-13 14:19:57 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:19:57 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:19:57 [info]: [General] Redis connection is ready.
+2024-11-13 14:19:57 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:20:03 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:20:15 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:20:42 [error]: Error connecting to MongoDB (Attempt 5): queryTxt ESERVFAIL cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:21:12 [info]: MongoDB connected successfully
+2024-11-13 14:22:35 [info]: Server running on port 3000
+2024-11-13 14:22:35 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:22:36 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:22:36 [info]: [General] Connected to Redis.
+2024-11-13 14:22:36 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:22:36 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:22:36 [info]: [General] Redis connection is ready.
+2024-11-13 14:22:36 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:22:39 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:22:45 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:22:58 [info]: MongoDB connected successfully
+2024-11-13 14:23:17 [info]: Server running on port 3000
+2024-11-13 14:23:18 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:23:18 [info]: [General] Connected to Redis.
+2024-11-13 14:23:18 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:23:18 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:23:18 [info]: [General] Redis connection is ready.
+2024-11-13 14:23:18 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:23:18 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:23:21 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:23:27 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:23:39 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:24:17 [info]: Server running on port 3000
+2024-11-13 14:24:18 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:24:18 [info]: [General] Connected to Redis.
+2024-11-13 14:24:18 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:24:18 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:24:18 [info]: [General] Redis connection is ready.
+2024-11-13 14:24:18 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:24:18 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:24:21 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:24:27 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:24:39 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:25:03 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:25:33 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:26:03 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:26:33 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:27:03 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:27:30 [info]: Server running on port 3000
+2024-11-13 14:27:30 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:27:30 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:27:30 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:27:30 [info]: [General] Connected to Redis.
+2024-11-13 14:27:30 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:27:30 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:27:30 [info]: [General] Redis connection is ready.
+2024-11-13 14:27:33 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:27:39 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:27:51 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:28:15 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:28:45 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:29:15 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:29:45 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:30:15 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:30:45 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:31:06 [info]: Here
+2024-11-13 14:31:16 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:31:46 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:32:54 [info]: Server running on port 3000
+2024-11-13 14:32:54 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:32:55 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:32:55 [info]: [General] Connected to Redis.
+2024-11-13 14:32:55 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:32:55 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:32:55 [info]: [General] Redis connection is ready.
+2024-11-13 14:32:55 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:32:58 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:33:04 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:33:16 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:33:40 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:34:10 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:34:40 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:35:11 [info]: Server running on port 3000
+2024-11-13 14:35:11 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:35:11 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:35:11 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:35:11 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:35:11 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:35:11 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:35:11 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:35:11 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:35:11 [warn]: [General] Redis connection has closed.
+2024-11-13 14:35:11 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:35:14 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:35:14 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:35:14 [info]: [General] Connected to Redis.
+2024-11-13 14:35:14 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:35:14 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:35:14 [info]: [General] Redis connection is ready.
+2024-11-13 14:35:14 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:35:20 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:35:32 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:35:56 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:36:27 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:36:57 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:37:27 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:37:57 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:38:27 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:39:13 [info]: Server running on port 3000
+2024-11-13 14:39:14 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:39:14 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:39:14 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 14:39:14 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:39:14 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:39:14 [warn]: [General] Redis connection has closed.
+2024-11-13 14:39:14 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:39:14 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:39:14 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:39:16 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:39:16 [info]: [General] Connected to Redis.
+2024-11-13 14:39:16 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:39:16 [info]: [General] Redis connection is ready.
+2024-11-13 14:39:17 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:39:23 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:39:35 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:39:56 [info]: Server running on port 3000
+2024-11-13 14:39:56 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:39:59 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:40:00 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:40:00 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:40:00 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:40:01 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:40:01 [info]: [General] Connected to Redis.
+2024-11-13 14:40:02 [info]: [General] Redis connection is ready.
+2024-11-13 14:40:05 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:40:17 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:40:41 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:41:11 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:41:41 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:42:11 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:42:42 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:43:31 [info]: Server running on port 3000
+2024-11-13 14:43:31 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:43:32 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:43:32 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:43:32 [info]: [General] Connected to Redis.
+2024-11-13 14:43:32 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:43:32 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:43:32 [info]: [General] Redis connection is ready.
+2024-11-13 14:43:35 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:43:41 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:43:53 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:43:57 [info]: Here
+2024-11-13 14:44:17 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:44:47 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:45:17 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:45:47 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:45:59 [error]: [General] Redis error: read ECONNRESET
+2024-11-13 14:45:59 [warn]: [General] Redis connection has closed.
+2024-11-13 14:45:59 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:45:59 [error]: [Subscriber] Redis error: read ECONNRESET
+2024-11-13 14:45:59 [error]: [Publisher] Redis error: read ECONNRESET
+2024-11-13 14:45:59 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:45:59 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:45:59 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:45:59 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:46:02 [info]: [General] Connected to Redis.
+2024-11-13 14:46:02 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:46:02 [info]: [General] Redis connection is ready.
+2024-11-13 14:46:02 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:46:03 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:46:03 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:46:20 [info]: MongoDB connected successfully
+2024-11-13 14:47:32 [info]: Server running on port 3000
+2024-11-13 14:47:32 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:47:32 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:47:32 [info]: [General] Connected to Redis.
+2024-11-13 14:47:32 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:47:32 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:47:32 [info]: [General] Redis connection is ready.
+2024-11-13 14:47:33 [info]: MongoDB connected successfully
+2024-11-13 14:47:38 [info]: Here
+2024-11-13 14:49:23 [info]: Server running on port 3000
+2024-11-13 14:49:23 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:49:23 [info]: [General] Connected to Redis.
+2024-11-13 14:49:24 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:49:24 [info]: [General] Redis connection is ready.
+2024-11-13 14:49:24 [info]: MongoDB connected successfully
+2024-11-13 14:49:31 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:49:31 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:51:36 [info]: Server running on port 3000
+2024-11-13 14:51:36 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:51:36 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:51:36 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:51:36 [info]: [General] Connected to Redis.
+2024-11-13 14:51:36 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:51:36 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:51:36 [info]: [General] Redis connection is ready.
+2024-11-13 14:51:39 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:51:45 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:51:57 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:52:13 [info]: Server running on port 3000
+2024-11-13 14:52:13 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:52:14 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:52:14 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:52:15 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:52:15 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:52:15 [info]: [General] Connected to Redis.
+2024-11-13 14:52:16 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:52:16 [info]: [General] Redis connection is ready.
+2024-11-13 14:52:22 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:52:34 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:52:58 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 14:53:07 [error]: [Publisher] Redis error: read ECONNRESET
+2024-11-13 14:53:07 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:53:07 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:53:07 [error]: [Subscriber] Redis error: read ECONNRESET
+2024-11-13 14:53:07 [error]: [General] Redis error: read ECONNRESET
+2024-11-13 14:53:07 [warn]: [General] Redis connection has closed.
+2024-11-13 14:53:07 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:53:07 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:53:07 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:53:09 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:53:09 [info]: [General] Connected to Redis.
+2024-11-13 14:53:09 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:53:09 [info]: [General] Redis connection is ready.
+2024-11-13 14:53:09 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:53:11 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:53:29 [info]: MongoDB connected successfully
+2024-11-13 14:55:47 [info]: Server running on port 3000
+2024-11-13 14:55:48 [info]: [General] Connected to Redis.
+2024-11-13 14:55:48 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:55:48 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:55:48 [info]: [General] Redis connection is ready.
+2024-11-13 14:55:48 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:55:48 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:55:49 [info]: MongoDB connected successfully
+2024-11-13 14:56:23 [info]: Server running on port 3000
+2024-11-13 14:56:28 [error]: Error connecting to MongoDB (Attempt 1): Server selection timed out after 5000 ms
+2024-11-13 14:56:29 [info]: [General] Connected to Redis.
+2024-11-13 14:56:34 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 14:56:34 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 14:56:34 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 14:56:34 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:56:34 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 14:56:34 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 14:56:36 [error]: Error connecting to MongoDB (Attempt 2): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13 14:56:39 [info]: [Publisher] Connected to Redis.
+2024-11-13 14:56:39 [info]: [Subscriber] Connected to Redis.
+2024-11-13 14:56:47 [error]: Error connecting to MongoDB (Attempt 3): Server selection timed out after 5000 ms
+2024-11-13 14:56:50 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 14:56:53 [info]: [General] Redis connection is ready.
+2024-11-13 14:56:59 [info]: [Publisher] Redis connection is ready.
+2024-11-13 14:57:06 [error]: Error connecting to MongoDB (Attempt 4): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13 14:57:35 [error]: Error connecting to MongoDB (Attempt 5): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13 14:58:13 [info]: MongoDB connected successfully
+2024-11-13 14:58:30 [info]: Here
+2024-11-13 15:01:40 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:01:40 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:01:43 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:01:43 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:01:48 [error]: [General] Redis error: read ECONNRESET
+2024-11-13 15:01:48 [warn]: [General] Redis connection has closed.
+2024-11-13 15:01:48 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:01:51 [info]: [General] Connected to Redis.
+2024-11-13 15:01:51 [info]: [General] Redis connection is ready.
+2024-11-13 15:01:55 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:01:55 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:02:07 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 15:02:07 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:02:07 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 15:02:21 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 15:02:21 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:02:21 [info]: [Publisher] Attempting to reconnect to Redis after 8000ms...
+2024-11-13 15:02:39 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 15:02:39 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:02:39 [info]: [Publisher] Attempting to reconnect to Redis after 16000ms...
+2024-11-13 15:02:49 [info]: Here
+2024-11-13 15:02:55 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:02:56 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:06:09 [info]: Server running on port 3000
+2024-11-13 15:06:09 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:06:12 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:06:18 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:06:19 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 15:06:19 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 15:06:19 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 15:06:19 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:06:19 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:06:19 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:06:19 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:06:19 [warn]: [General] Redis connection has closed.
+2024-11-13 15:06:19 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:06:21 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:06:21 [info]: [General] Connected to Redis.
+2024-11-13 15:06:21 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:06:21 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:06:21 [info]: [General] Redis connection is ready.
+2024-11-13 15:06:21 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:06:30 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:06:52 [info]: Server running on port 3000
+2024-11-13 15:06:52 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:06:53 [info]: [General] Connected to Redis.
+2024-11-13 15:06:53 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:06:53 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:06:53 [info]: [General] Redis connection is ready.
+2024-11-13 15:06:53 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:06:53 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:06:55 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:01 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:13 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:20 [info]: Server running on port 3000
+2024-11-13 15:07:20 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:20 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:07:20 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:07:20 [info]: [General] Connected to Redis.
+2024-11-13 15:07:20 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:07:20 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:07:20 [info]: [General] Redis connection is ready.
+2024-11-13 15:07:23 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:29 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:41 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:07:43 [info]: TIme
+2024-11-13 15:08:04 [info]: Server running on port 3000
+2024-11-13 15:08:04 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:08:04 [info]: [General] Connected to Redis.
+2024-11-13 15:08:04 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:08:04 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:08:04 [info]: [General] Redis connection is ready.
+2024-11-13 15:08:04 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:08:04 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:08:07 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:08:13 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:08:25 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:08:49 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:09:19 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:09:49 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:10:19 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:10:49 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:11:19 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:11:47 [info]: Server running on port 3000
+2024-11-13 15:11:57 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 15:11:57 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 15:11:57 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 15:11:57 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:11:57 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:11:57 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:11:57 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:11:57 [warn]: [General] Redis connection has closed.
+2024-11-13 15:11:57 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:11:59 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:11:59 [info]: [General] Connected to Redis.
+2024-11-13 15:11:59 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:11:59 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:12:00 [info]: [General] Redis connection is ready.
+2024-11-13 15:12:00 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:12:52 [error]: Error connecting to MongoDB (Attempt 1): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13 15:13:00 [error]: Error connecting to MongoDB (Attempt 2): Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-13 15:13:21 [info]: MongoDB connected successfully
+2024-11-13 15:13:41 [info]: Server running on port 3000
+2024-11-13 15:13:51 [error]: [General] Redis error: connect ETIMEDOUT
+2024-11-13 15:13:51 [error]: [Publisher] Redis error: connect ETIMEDOUT
+2024-11-13 15:13:51 [error]: [Subscriber] Redis error: connect ETIMEDOUT
+2024-11-13 15:13:51 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:13:51 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:13:51 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:13:51 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:13:51 [warn]: [General] Redis connection has closed.
+2024-11-13 15:13:51 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:14:01 [info]: [General] Connected to Redis.
+2024-11-13 15:14:01 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:14:01 [info]: [General] Redis connection is ready.
+2024-11-13 15:14:01 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:14:01 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:14:02 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:14:31 [error]: Error connecting to MongoDB (Attempt 1): querySrv ETIMEOUT _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:14:36 [info]: MongoDB connected successfully
+2024-11-13 15:14:42 [info]: Server running on port 3000
+2024-11-13 15:14:51 [info]: [General] Connected to Redis.
+2024-11-13 15:14:51 [info]: [General] Redis connection is ready.
+2024-11-13 15:14:51 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:14:51 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:14:51 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:14:51 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:14:52 [info]: MongoDB connected successfully
+2024-11-13 15:15:05 [info]: Here
+2024-11-13 15:16:26 [info]: Server running on port 3000
+2024-11-13 15:16:26 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:16:26 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:16:26 [info]: [General] Connected to Redis.
+2024-11-13 15:16:26 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:16:26 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:16:26 [info]: [General] Redis connection is ready.
+2024-11-13 15:16:26 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:16:29 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:16:35 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:16:47 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:17:11 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:17:41 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:18:11 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:18:41 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:19:11 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:19:41 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:20:11 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:20:41 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:21:11 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:21:26 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:21:26 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:21:26 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:21:26 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:21:28 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:21:28 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:21:28 [info]: [Publisher] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 15:21:28 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:21:28 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:21:28 [info]: [Subscriber] Attempting to reconnect to Redis after 4000ms...
+2024-11-13 15:21:33 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:21:33 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:21:33 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:21:33 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:21:41 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:22:11 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:22:42 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:23:14 [info]: Server running on port 3000
+2024-11-13 15:23:14 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:23:14 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:23:14 [warn]: [General] Redis connection has closed.
+2024-11-13 15:23:14 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:23:14 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:23:14 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:23:14 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:23:14 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:23:14 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:23:16 [info]: [General] Connected to Redis.
+2024-11-13 15:23:16 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:23:16 [info]: [General] Redis connection is ready.
+2024-11-13 15:23:16 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:23:17 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:23:23 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:23:35 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:23:59 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:24:29 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:24:59 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:25:04 [info]: Server running on port 3000
+2024-11-13 15:25:04 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:25:04 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:25:04 [info]: [General] Connected to Redis.
+2024-11-13 15:25:04 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:25:05 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:25:05 [info]: [General] Redis connection is ready.
+2024-11-13 15:25:05 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:25:07 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:25:13 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:25:25 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:25:49 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:25:55 [info]: Here
+2024-11-13 15:26:19 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:26:49 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:27:14 [info]: Server running on port 3000
+2024-11-13 15:27:14 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:27:14 [info]: [General] Connected to Redis.
+2024-11-13 15:27:14 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:27:14 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:27:14 [info]: [General] Redis connection is ready.
+2024-11-13 15:27:14 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:27:14 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:27:17 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:27:23 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:27:35 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:27:59 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:28:29 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:28:59 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:29:29 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:29:59 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:30:29 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:30:59 [error]: Error connecting to MongoDB (Attempt 11): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:31:29 [error]: Error connecting to MongoDB (Attempt 12): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:32:00 [error]: Error connecting to MongoDB (Attempt 13): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:32:14 [warn]: [General] Redis connection has closed.
+2024-11-13 15:32:14 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:32:14 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:32:14 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:32:14 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:32:14 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:32:17 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:32:17 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:32:17 [info]: [General] Connected to Redis.
+2024-11-13 15:32:17 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:32:17 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:32:17 [info]: [General] Redis connection is ready.
+2024-11-13 15:32:30 [error]: Error connecting to MongoDB (Attempt 14): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:33:00 [error]: Error connecting to MongoDB (Attempt 15): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:33:30 [error]: Error connecting to MongoDB (Attempt 16): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:34:00 [error]: Error connecting to MongoDB (Attempt 17): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:34:30 [error]: Error connecting to MongoDB (Attempt 18): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:35:00 [error]: Error connecting to MongoDB (Attempt 19): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:35:30 [error]: Error connecting to MongoDB (Attempt 20): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:37:17 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:37:17 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:37:17 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:37:17 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:37:17 [warn]: [General] Redis connection has closed.
+2024-11-13 15:37:17 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:37:19 [info]: [General] Connected to Redis.
+2024-11-13 15:37:19 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:37:19 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:37:19 [info]: [General] Redis connection is ready.
+2024-11-13 15:37:19 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:37:19 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:42:10 [info]: Here
+2024-11-13 15:42:19 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:42:19 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:42:20 [warn]: [General] Redis connection has closed.
+2024-11-13 15:42:20 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:42:20 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:42:20 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:42:27 [info]: [General] Connected to Redis.
+2024-11-13 15:42:27 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:42:27 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:42:27 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:42:27 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:42:28 [info]: [General] Redis connection is ready.
+2024-11-13 15:44:08 [info]: Server running on port 3000
+2024-11-13 15:44:08 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:44:08 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:44:08 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:44:08 [warn]: [General] Redis connection has closed.
+2024-11-13 15:44:08 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:44:08 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:44:08 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:44:09 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:44:09 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:44:11 [info]: [General] Connected to Redis.
+2024-11-13 15:44:11 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:44:11 [info]: [General] Redis connection is ready.
+2024-11-13 15:44:11 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:44:11 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:44:17 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:44:29 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:44:53 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:45:23 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:45:53 [error]: Error connecting to MongoDB (Attempt 7): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:46:24 [error]: Error connecting to MongoDB (Attempt 8): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:46:54 [error]: Error connecting to MongoDB (Attempt 9): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:47:24 [error]: Error connecting to MongoDB (Attempt 10): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:47:31 [info]: Server running on port 3000
+2024-11-13 15:47:31 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:47:32 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:47:32 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:47:32 [info]: [General] Connected to Redis.
+2024-11-13 15:47:32 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:47:32 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:47:32 [info]: [General] Redis connection is ready.
+2024-11-13 15:47:34 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:47:40 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:47:53 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:48:17 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:48:40 [info]: Server running on port 3000
+2024-11-13 15:48:40 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:48:40 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:48:40 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:48:40 [warn]: [General] Redis connection has closed.
+2024-11-13 15:48:40 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:48:40 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:48:40 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:48:41 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:48:41 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:48:43 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:48:43 [info]: [General] Connected to Redis.
+2024-11-13 15:48:43 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:48:43 [info]: [General] Redis connection is ready.
+2024-11-13 15:48:43 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:48:49 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:49:01 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:49:26 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:49:56 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:50:18 [info]: Server running on port 3000
+2024-11-13 15:50:18 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:50:19 [info]: [General] Connected to Redis.
+2024-11-13 15:50:19 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:50:19 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:50:19 [info]: [General] Redis connection is ready.
+2024-11-13 15:50:19 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:50:19 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:50:21 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:50:27 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:50:40 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:51:01 [info]: Server running on port 3000
+2024-11-13 15:51:01 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:51:02 [info]: [General] Connected to Redis.
+2024-11-13 15:51:02 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:51:02 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:51:02 [info]: [General] Redis connection is ready.
+2024-11-13 15:51:02 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:51:02 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:51:04 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:51:10 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:51:22 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:51:51 [info]: Server running on port 3000
+2024-11-13 15:51:51 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:51:51 [info]: [General] Connected to Redis.
+2024-11-13 15:51:51 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:51:51 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:51:51 [info]: [General] Redis connection is ready.
+2024-11-13 15:51:51 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:51:51 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:51:54 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:52:00 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:52:14 [error]: Error connecting to MongoDB (Attempt 4): queryTxt ESERVFAIL cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:52:39 [info]: MongoDB connected successfully
+2024-11-13 15:53:17 [info]: Server running on port 3000
+2024-11-13 15:53:17 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:53:17 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:53:17 [warn]: [General] Redis connection has closed.
+2024-11-13 15:53:17 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:53:17 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:53:17 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:53:17 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:53:17 [error]: [Subscriber] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:53:17 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 15:53:17 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:53:20 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:53:20 [info]: [General] Connected to Redis.
+2024-11-13 15:53:20 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:53:20 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:53:20 [info]: [General] Redis connection is ready.
+2024-11-13 15:53:20 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:53:20 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:53:26 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:53:37 [info]: Server running on port 3000
+2024-11-13 15:53:37 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:53:37 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:53:37 [info]: [General] Connected to Redis.
+2024-11-13 15:53:37 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:53:37 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:53:37 [info]: [General] Redis connection is ready.
+2024-11-13 15:53:37 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:53:40 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:53:46 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:53:58 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:00 [info]: Here
+2024-11-13 15:54:19 [info]: Server running on port 3000
+2024-11-13 15:54:19 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:19 [error]: [General] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:54:19 [error]: [Publisher] Redis error: getaddrinfo ENOTFOUND caching-327d1640-raimudit2003-5446.l.aivencloud.com
+2024-11-13 15:54:19 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 15:54:19 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:54:19 [warn]: [General] Redis connection has closed.
+2024-11-13 15:54:19 [info]: [General] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 15:54:20 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:54:20 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:54:22 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:54:22 [info]: [General] Connected to Redis.
+2024-11-13 15:54:22 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:54:22 [info]: [General] Redis connection is ready.
+2024-11-13 15:54:22 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:28 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:40 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:48 [info]: Server running on port 3000
+2024-11-13 15:54:48 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:48 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:54:48 [info]: [General] Connected to Redis.
+2024-11-13 15:54:48 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:54:48 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:54:48 [info]: [General] Redis connection is ready.
+2024-11-13 15:54:48 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:54:51 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:54:59 [error]: Error connecting to MongoDB (Attempt 3): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:55:04 [info]: Server running on port 3000
+2024-11-13 15:55:04 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:55:04 [info]: [Subscriber] Connected to Redis.
+2024-11-13 15:55:04 [info]: [General] Connected to Redis.
+2024-11-13 15:55:04 [info]: [Publisher] Connected to Redis.
+2024-11-13 15:55:04 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 15:55:04 [info]: [General] Redis connection is ready.
+2024-11-13 15:55:04 [info]: [Publisher] Redis connection is ready.
+2024-11-13 15:55:07 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:55:13 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:55:25 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:55:51 [error]: Error connecting to MongoDB (Attempt 5): queryTxt EREFUSED cluster0.gzqnu3c.mongodb.net
+2024-11-13 15:56:22 [info]: MongoDB connected successfully
+2024-11-13 16:00:04 [warn]: [Subscriber] Redis connection has closed.
+2024-11-13 16:00:04 [info]: [Subscriber] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 16:00:04 [warn]: [Publisher] Redis connection has closed.
+2024-11-13 16:00:04 [info]: [Publisher] Attempting to reconnect to Redis after 2000ms...
+2024-11-13 16:01:42 [info]: Server running on port 3000
+2024-11-13 16:01:42 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:01:42 [info]: [Subscriber] Connected to Redis.
+2024-11-13 16:01:42 [info]: [General] Connected to Redis.
+2024-11-13 16:01:42 [info]: [Publisher] Connected to Redis.
+2024-11-13 16:01:43 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 16:01:43 [info]: [General] Redis connection is ready.
+2024-11-13 16:01:43 [info]: [Publisher] Redis connection is ready.
+2024-11-13 16:01:45 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:01:51 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:02:03 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:02:37 [info]: Server running on port 3000
+2024-11-13 16:02:37 [error]: Error connecting to MongoDB (Attempt 1): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:02:37 [info]: [Publisher] Connected to Redis.
+2024-11-13 16:02:37 [info]: [General] Connected to Redis.
+2024-11-13 16:02:37 [info]: [Subscriber] Connected to Redis.
+2024-11-13 16:02:37 [info]: [Publisher] Redis connection is ready.
+2024-11-13 16:02:37 [info]: [General] Redis connection is ready.
+2024-11-13 16:02:37 [info]: [Subscriber] Redis connection is ready.
+2024-11-13 16:02:40 [error]: Error connecting to MongoDB (Attempt 2): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:02:46 [error]: Error connecting to MongoDB (Attempt 3): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:02:58 [error]: Error connecting to MongoDB (Attempt 4): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:03:22 [error]: Error connecting to MongoDB (Attempt 5): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net
+2024-11-13 16:03:31 [info]: A user connected
+2024-11-13 16:03:31 [info]: Subscribed successfully! This client is currently subscribed to 3 channels.
+2024-11-13 16:03:52 [error]: Error connecting to MongoDB (Attempt 6): querySrv EREFUSED _mongodb._tcp.cluster0.gzqnu3c.mongodb.net

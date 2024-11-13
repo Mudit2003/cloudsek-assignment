@@ -1,3 +1,4 @@
+import { debug } from "console";
 import prisma from "../config/prisma.config";
 import { PostCreationError, PostNotFoundError } from "../errors/post.error";
 import { IPost } from "../interfaces/post.interface";
@@ -8,6 +9,7 @@ import {
   setCache,
 } from "../utils/cache.util";
 import { notifyNewPost } from "../utils/socket.util";
+import logger from "../config/logger.config";
 
 const cacheAllPostKey = `all_posts-`;
 const cachePostKey = `post-`;
@@ -24,7 +26,7 @@ export const createPost = async (data: IPost) => {
     },
   });
   if (!createdPost) throw PostCreationError;
-  await notifyNewPost()
+  await notifyNewPost();
   await setCache(cachePostKey + createdPost.id, createdPost);
   return createdPost;
 };
@@ -35,7 +37,7 @@ export const getPostById = async (postId: string): Promise<IPost> => {
     const cacheKey = `${cachePostKey}${postId}`;
     const post = await getCache(cacheKey);
     if (post) return post as IPost;
-  
+
     const postFromDB = await prisma.post.findUniqueOrThrow({
       where: { id: postId },
     });
@@ -51,14 +53,31 @@ export const getAllPosts = async (page: number, limit: number) => {
   const cacheKey = `${cacheAllPostKey}${page}`;
 
   // Try to get cached data
+  logger.debug(cacheKey);
   const cachedPosts = await getCache(cacheKey);
   if (cachedPosts) {
     return cachedPosts;
   }
 
+  logger.debug("Hello");
   const offset = (page - 1) * limit;
   return await prisma.post.findMany({
     orderBy: { createdAt: "desc" },
+    skip: offset,
+    take: limit,
+  });
+};
+// Retrieve all posts
+export const getAllPostsByUser = async (
+  authorId: string,
+  page: number,
+  limit: number
+) => {
+  const offset = (page - 1) * limit;
+  logger.debug(`${authorId}`)
+  return await prisma.post.findMany({
+    orderBy: { createdAt: "desc" },
+    where: { authorId },
     skip: offset,
     take: limit,
   });

@@ -81,7 +81,7 @@ export const verifyRefreshToken = async (user: IUser, refreshToken: string) => {
   // If valid, generate new access and refresh tokens
   const newAccessToken = generateAccessToken(user);
 
-  return { newAccessToken };
+  return newAccessToken ;
 };
 
 export const revokeRefreshToken = async (userId: string): Promise<void> => {

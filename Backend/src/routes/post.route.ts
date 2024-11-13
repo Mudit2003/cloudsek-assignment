@@ -5,6 +5,7 @@ import {
   deletePostController,
   getPostByIdController,
   updatePostController,
+  getUsersPost,
 } from "../controllers/post.controller";
 import validate from "../middlewares/validate.middleware";
 import { postSchema } from "../validation/post.schema";
@@ -16,9 +17,11 @@ router.post("/", validate(postSchema), createPostController);
 
 // Route to retrieve all posts
 router.get("/", getAllPostsController);
+router.get("/user" , getUsersPost);
+router.get("/:id", getPostByIdController);
 
 // Route to retrieve a single post by ID
-router.get("/:id", getPostByIdController);
+
 
 // Route to update a post by ID
 router.put("/:id", validate(postSchema.partial()), updatePostController);

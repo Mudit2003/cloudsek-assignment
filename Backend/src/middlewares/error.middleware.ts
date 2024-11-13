@@ -14,7 +14,7 @@ const errorHandler = (
   res: Response,
   next: NextFunction
 ) => {
-  logger.debug("Interrupted");
+  logger.debug("Interrupted" , err);
   if (
     err instanceof PrismaClientRustPanicError ||
     err instanceof PrismaClientInitializationError
