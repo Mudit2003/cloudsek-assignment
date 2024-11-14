@@ -64,6 +64,7 @@ export const authenticateRequest = async (
         const newAccessToken = await verifyRefreshToken(user, refreshToken);
 
         res.setHeader("Authorization", `Bearer ${newAccessToken}`);
+        res.setHeader('Access-Control-Expose-Headers', 'Authorization');
         req.user = user;  // Attach user to the request for next middleware/controller
         return next();
       } catch (refreshError) {
