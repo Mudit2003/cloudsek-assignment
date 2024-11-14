@@ -21,7 +21,9 @@ app.use(express.json());
 app.use(helmet());
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 100 })); // Rate limiting
 app.use(cookieParser());
-app.use(cors({ origin: true, credentials: true }));
+app.use(
+  cors({ origin: true, credentials: true, exposedHeaders: "Authorization" })
+);
 
 // Routes
 app.use("/api/v1/posts", authenticateRequest, postRoutes);
